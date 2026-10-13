@@ -1,0 +1,634 @@
+{
+  "reference_exe_sha256": "e43a4b15503c705eebe2d8ce5778c2a2fb090db515a3fd86d319e5c5aa692ebf",
+  "definitions": [
+    {
+      "name": "GetPlayer",
+      "rva": 3437312,
+      "data": "a10000000035d315cdb1c3",
+      "mask": "ff00000000ffffffffffff",
+      "offset": 0,
+      "kind": "code"
+    },
+    {
+      "name": "PlanetRelation",
+      "rva": 3381640,
+      "data": "5356578bfa8bf08bd78bc6e80000000083e07f83f81e7d0c83e80a721b83e814721aeb2883c0e283e81e721483e814721383e8157212eb1433dbeb12b301eb0eb302eb0ab303eb06b304eb02b30280be60010000007419e8000000003bf87510e8000000003b701c750684db7502b3018bc35f5e5bc3",
+      "mask": "ffffffffffffffffffffffff00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00000000ffffffffff00000000ffffffffffffffffffffffffffffffffff",
+      "offset": 0,
+      "kind": "code"
+    },
+    {
+      "name": "PlanetPoint",
+      "rva": 3369036,
+      "data": "53568bf28bd88bd68d4320e8000000005e5bc3",
+      "mask": "ffffffffffffffffffffffff00000000ffffff",
+      "offset": 0,
+      "kind": "code"
+    },
+    {
+      "name": "JumpArrival",
+      "rva": 3024532,
+      "data": "53565783c4e48bf98bf28bd88b43248d50148d4614e80000000083c4f8dd1c249be800000000dd1c249b8bc6e80000000089442410db442410d83500000000dd5c24089bdd042483c4f4db3c249be800000000dc4c2408e8000000008944241489542418df6c2414d91f9bdd042483c4f4db3c249be800000000d9e0dc4c2408e8000000008944241489542418df6c2414d95f049b83c41c5f5e5bc3",
+      "mask": "ffffffffffffffffffffffffffffffffffffffffffff00000000ffffffffffffffff00000000ffffffffffffff00000000ffffffffffffffffffff00000000ffffffffffffffffffffffffffffffff00000000ffffffffff00000000ffffffffffffffffffffffffffffffffffffffffffffffffffff00000000ffffffffffffff00000000ffffffffffffffffffffffffffffffffffffffffffffff",
+      "offset": 0,
+      "kind": "code"
+    },
+    {
+      "name": "JumpDeparture",
+      "rva": 3024320,
+      "data": "53565783c4d88bf98bf28bd88b43248b4808038be00000000faf4e08ba04000000b8fcffffffe80000000089442410db442410db7c24149b8d56148b432483c014e800000000db6c2414dec183c4f8dd1c249be800000000dd1c249b8b4324e80000000089442410db442410d83500000000dd5c24089bdd042483c4f4db3c249be800000000dc4c2408e8000000008944242089542424df6c2420d91f9bdd042483c4f4db3c249be800000000d9e0dc4c2408e8000000008944242089542424",
+      "mask": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00000000ffffffffffffffffffffffffffffffffffffffffffffff00000000ffffffffffffffffffffffffffff00000000ffffffffffffffff00000000ffffffffffffffffffff00000000ffffffffffffffffffffffffffffffff00000000ffffffffff00000000ffffffffffffffffffffffffffffffffffffffffffffffffffff00000000ffffffffffffff00000000ffffffffffffffff",
+      "offset": 0,
+      "kind": "code"
+    },
+    {
+      "name": "ArtefactBoost",
+      "rva": 3059076,
+      "data": "558bec515356578bf98bda8bf0c645ff00807d080075118bd38bc6e80000000085c00f8ec50800008bc304f62c0a7219482c02721404fd2c09720e2c01740a04fc2c020f83a408000085ff0f853d0500000fb6c383c0f683f81e0f871c020000ff248500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000093",
+      "mask": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffff00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ff",
+      "offset": 0,
+      "kind": "code"
+    },
+    {
+      "name": "ArtefactCount",
+      "rva": 3058584,
+      "data": "5356575583c4f48814248be833c089442404c6442408000fb6042404f22c0272082c0474042c13753a803c24267434b2268bc5e80000000085c07e1da1000000008b0083e801740583e8027510b2268bc5e800000000487f0433c0eb02b001884424088b85bc0300008b70084e85f67c364633ff8b85bc0300008bd7e8000000008bd88bc3e8000000003a04247514807b4800750e0fb643490a4424087404ff442404474e75cd8b44240483c40c5d5f5e5bc3",
+      "mask": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00000000ffffffffff00000000ffffffffffffffffffffffffffffffffff00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00000000ffffffffff00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+      "offset": 0,
+      "kind": "code"
+    },
+    {
+      "name": "JumpDays",
+      "rva": 3024692,
+      "data": "535683c4f08bf18bda8d56148d4314e800000000db2d00000000dec9e80000000083c00183d20089042489542404837c2404007508833c24027316eb027d12c744240802000000c744240c00000000eb0f8b0424894424088b4424048944240c8b44240883c4105e5bc3",
+      "mask": "ffffffffffffffffffffffffffffffff00000000ffff00000000ffffff00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+      "offset": 0,
+      "kind": "code"
+    },
+    {
+      "name": "SetText",
+      "rva": 647376,
+      "data": "558bec6a0053568bf28bd833c055680000000064ff306489208d55fc8b8328010000e8000000008b45fc8bd6e800000000743e8bc38b10ff929c0000008bd68b8328010000e8000000008bc3e8000000008bc3e8000000008bc38b10ff929c0000008b836801000085c07405e80000000033c05a595964891068000000008d45fce800000000c3",
+      "mask": "ffffffffffffffffffffffffffffff00000000ffffffffffffffffffffffffffffffff00000000ffffffffffff00000000ffffffffffffffffffffffffffffffffffffffffff00000000ffffff00000000ffffff00000000ffffffffffffffffffffffffffffffffffffffffff00000000ffffffffffffffffff00000000ffffffff00000000ff",
+      "offset": 0,
+      "kind": "code"
+    },
+    {
+      "name": "ListAdd",
+      "rva": 90560,
+      "data": "5356578bfa8bd88b73083b730c75068bc38b10ff128b4304893cb0ff430885ff740b33c98bd78bc38b18ff53048bc65f5e5bc3",
+      "mask": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+      "offset": 0,
+      "kind": "code"
+    },
+    {
+      "name": "ShowStarInfo",
+      "rva": 2593708,
+      "data": "558becb9220000006a006a004975f95356578955f48945f833c055680000000064ff30648920837df400741ce80000000085c074136a006a00e8000000008b4df4b233e8000000008b45f883b80c01000000741c8b45f88b900c0100008b45f8e8000000008b45f833d289900c010000ba000000008b45f8e8000000008945f0837df400750f33d28b45f08b08ff5128e900000000b2018b45f08b08ff5128ba000000008b45f8e8000000008b1500000000e8000000008bd8c6832701000001",
+      "mask": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffff00000000ffffffffffffffffffffffffff00000000ffffffffffffffffff00000000ffffffffffff00000000ffffffffffffffffffffffffffffffffffffffffffffffffff00000000ffffffffffffffffffffffff00000000ffffffff00000000ffffffffffffffffffffffffffffffffffffffff00000000ffffffffffffffffffffff00000000ffffffff00000000ffff00000000ff00000000ffffffffffffffffff",
+      "offset": 0,
+      "kind": "code"
+    },
+    {
+      "name": "GetByName",
+      "rva": 809280,
+      "data": "558bec6a006a0053568bf233d255680000000064ff326489228bd68b401ce8000000008bd885db752e8d45f88bceba00000000e8000000008b55f88d45fce8000000008b4dfcb201a100000000e800000000e80000000033c05a595964891068000000008d45f8e8000000008d45fce800000000c3",
+      "mask": "ffffffffffffffffffffffffffffff00000000ffffffffffffffffffffffff00000000ffffffffffffffffffffffff00000000ff00000000ffffffffffffff00000000ffffffffffff00000000ff00000000ff00000000ffffffffffffffffff00000000ffffffff00000000ffffffff00000000ff",
+      "offset": 0,
+      "kind": "code"
+    },
+    {
+      "name": "ShipSpeed",
+      "rva": 3084520,
+      "data": "535683c4a48bd833f68bc3e80000000085c00f84ce0500008bc3e80000000085c00f84bf05000083bbdc000000000f8cb2050000e8000000003bd875308bc3e8000000008bd08bc3e80000000084c00f84910500008bc3e8000000008bd08bc3e80000000084c00f8479050000a1000000008b00e80000000084c00f84960200008bc3e80000000089442454db44245483c4f8dd1c249ba100000000db0083c4f8dd1c249ba100000000db0083c4f8dd1c249b680000f03f6a0068df4fd53f681d5a643b",
+      "mask": "ffffffffffffffffffffffff00000000ffffffffffffffffffffff00000000ffffffffffffffffffffffffffffffffffffffffffff00000000ffffffffffffff00000000ffffffffff00000000ffffffffffffffffffffff00000000ffffffffff00000000ffffffffffffffffff00000000ffffff00000000ffffffffffffffffffffff00000000ffffffffffffffffffffffffffffffff00000000ffffffffffffffffffff00000000ffffffffffffffffffffffffffffffffffffffffffffffffffff",
+      "offset": 0,
+      "kind": "code"
+    },
+    {
+      "name": "GetTank",
+      "rva": 2975064,
+      "data": "8b80fc000000c3",
+      "mask": "ffffffffffffff",
+      "offset": 0,
+      "kind": "code"
+    },
+    {
+      "name": "GetEngine",
+      "rva": 2975072,
+      "data": "8b8000010000c3",
+      "mask": "ffffffffffffff",
+      "offset": 0,
+      "kind": "code"
+    },
+    {
+      "name": "EquipmentUsable",
+      "rva": 2975236,
+      "data": "53568bf28bd8a1000000008338007410a1000000008b00e80000000084c07405b0015e5bc3",
+      "mask": "ffffffffffffff00000000ffffffffffff00000000ffffff00000000ffffffffffffffffff",
+      "offset": 0,
+      "kind": "code"
+    },
+    {
+      "name": "ShipRange",
+      "rva": 2977388,
+      "data": "53518bd88bc3e80000000085c0750533c05a5bc3",
+      "mask": "ffffffffffffff00000000ffffffffffffffffff",
+      "offset": 0,
+      "kind": "code"
+    },
+    {
+      "name": "ShipBonus",
+      "rva": 3088072,
+      "data": "53565755518bda8bf033c08904248b96c403000085d2742e8b420885c074278be84d85ed7c204533ff8b86c40300008bd7e8000000003a1875088b4004890424eb04474d75e38b04245a5d5f5e5bc3",
+      "mask": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00000000ffffffffffffffffffffffffffffffffffffffffffffffffff",
+      "offset": 0,
+      "kind": "code"
+    },
+    {
+      "name": "StarVisible",
+      "rva": 4143748,
+      "data": "8b80d00000000fb64009c3",
+      "mask": "ffffffffffffffffffffff",
+      "offset": 0,
+      "kind": "code"
+    },
+    {
+      "name": "SetDisabled",
+      "rva": 708908,
+      "data": "3a9023010000740b889023010000e800000000c3",
+      "mask": "ffffffffffffffffffffffffffffff00000000ff",
+      "offset": 0,
+      "kind": "code"
+    },
+    {
+      "name": "SetActive",
+      "rva": 790972,
+      "data": "53568bda8bf03a5e41743d80fb017524885e418bc6e8000000008bc6e8000000008bc68b10ff929c0000008bc68b10ff5244eb148bc68b10ff929c000000885e418bc68b10ff524c5e5bc3",
+      "mask": "ffffffffffffffffffffffffffffffffffffffffffff00000000ffffff00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+      "offset": 0,
+      "kind": "code"
+    },
+    {
+      "name": "GalaxyOpen",
+      "rva": 2575288,
+      "data": "558becb93e0000006a006a004975f95356578bd833c055680000000064ff306489208bc3e800000000a1000000008b00e80000000085c0750933d2b001e800000000ba000000008bc3e8000000008b1500000000e8000000008b15000000008b12e800000000e80000000085c0741b80bb340100000075126a006a00e80000000033c9b218e8000000008b83d0000000e800000000ba000000008bc3e8000000008b1500000000e800000000b2018b08ff512cba000000008bc3e8000000008b1500000000",
+      "mask": "ffffffffffffffffffffffffffffffffffffffffffffffff00000000ffffffffffffffffff00000000ff00000000ffffff00000000ffffffffffffffffff00000000ff00000000ffffff00000000ffff00000000ff00000000ffff00000000ffffff00000000ff00000000ffffffffffffffffffffffffffffffffffff00000000ffffffffff00000000ffffffffffffff00000000ff00000000ffffff00000000ffff00000000ff00000000ffffffffffffffff00000000ffffff00000000ffff00000000",
+      "offset": 0,
+      "kind": "code"
+    },
+    {
+      "name": "RebuildPath",
+      "rva": 2587332,
+      "data": "558bec83c48053565733d289558489558089558c8955888bf033c055680000000064ff306489208bc6e800000000ba000000008bc6e8000000008b1500000000e8000000008bd8e8000000008b40248d50148d4d9c8bc6e8000000008d559c8bc38b08ff510c8d559c8d4328e8000000008d559c8bc38b08ff511cb2018bc38b08ff51288bc3e800000000ba000000008bc6e8000000008b1500000000e80000000033d2e800000000e8000000008b40248b9e000100003bc30f840a08000085db",
+      "mask": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00000000ffffffffffffffffff00000000ff00000000ffffff00000000ffff00000000ff00000000ffffff00000000ffffffffffffffffffffffff00000000ffffffffffffffffffffffffffffffffff00000000ffffffffffffffffffffffffffffffffffffffffffff00000000ff00000000ffffff00000000ffff00000000ff00000000ffffff00000000ff00000000ffffffffffffffffffffffffffffffffffffff",
+      "offset": 0,
+      "kind": "code"
+    },
+    {
+      "name": "GalaxyMouseUp",
+      "rva": 2586544,
+      "data": "558bec83c4f85356578b75088d7df8a5a58bd8a1000000008038000f8491000000ba000000008bc3e8000000008b1500000000e8000000008d55f8e80000000084c0756eba000000008bc3e8000000008d55f8e80000000084c07556ba000000008bc3e8000000008b1500000000e8000000008d55f8e80000000084c075338d55f88b831c010000e80000000084c07521ba000000008bc3e8000000008d55f8e80000000084c0750933d28bc3e8000000005f5e5b59595dc20400",
+      "mask": "ffffffffffffffffffffffffffffffffffffffff00000000ffffffffffffffffffff00000000ffffff00000000ffff00000000ff00000000ffffffff00000000ffffffffff00000000ffffff00000000ffffffff00000000ffffffffff00000000ffffff00000000ffff00000000ff00000000ffffffff00000000ffffffffffffffffffffffffffff00000000ffffffffff00000000ffffff00000000ffffffff00000000ffffffffffffffffff00000000ffffffffffffffffff",
+      "offset": 0,
+      "kind": "code"
+    },
+    {
+      "name": "GovClear",
+      "rva": 1175088,
+      "data": "535633d28990e8000000ba00000000e8000000008bf08b5e0485db74128b838c000000e8000000008b5b1085db75ee8bc6e8000000008bc68b10ff929c0000005e5bc3",
+      "mask": "ffffffffffffffffffffff00000000ff00000000ffffffffffffffffffffffffffffffff00000000ffffffffffffffffffff00000000ffffffffffffffffffffffffff",
+      "offset": 0,
+      "kind": "code"
+    },
+    {
+      "name": "GovOffer",
+      "rva": 1184184,
+      "data": "558bec33c9515151515151538bd833c055680000000064ff306489208bc3e8000000005368000000008d55fcb800000000e8000000008b55fc33c98bc3e8000000005368000000008d55f8b800000000e8000000008b55f833c98bc3e8000000005368000000008d55f4b800000000e8000000008b55f433c98bc3e8000000005368000000008d55f0b800000000e8000000008b55f033c98bc3e80000000080bbf000000002751f5368000000008d55ecb800000000e8000000008b55ec33c9",
+      "mask": "ffffffffffffffffffffffffffffffffffff00000000ffffffffffffffffff00000000ffff00000000ffffffff00000000ff00000000ffffffffffffffff00000000ffff00000000ffffffff00000000ff00000000ffffffffffffffff00000000ffff00000000ffffffff00000000ff00000000ffffffffffffffff00000000ffff00000000ffffffff00000000ff00000000ffffffffffffffff00000000ffffffffffffffffffffff00000000ffffffff00000000ff00000000ffffffffff",
+      "offset": 0,
+      "kind": "code"
+    },
+    {
+      "name": "GovEasy",
+      "rva": 1189728,
+      "data": "558bec33c951515151515151538bd833c055680000000064ff30648920ff8b140100000fb683f00000002c0372062c027210eb1a8b831c0100000183f8000000eb0c8b831c0100002983f80000008b83180100002983fc0000008d55fcb800000000e800000000ff75fc68000000008d45f850e80000000033c98d93f0000000e800000000ff75f88d83dc000000ba03000000e80000000083bb14010000ff0f8fad0000008bc3e8000000005368000000008d55f4b800000000e8000000008b55f4",
+      "mask": "ffffffffffffffffffffffffffffffffffffff00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00000000ff00000000ffffffff00000000ffffffffff00000000ffffffffffffffffff00000000ffffffffffffffffffffffffffffff00000000ffffffffffffffffffffffffffffffff00000000ffff00000000ffffffff00000000ff00000000ffffff",
+      "offset": 0,
+      "kind": "code"
+    },
+    {
+      "name": "GovHard",
+      "rva": 1190424,
+      "data": "558bec33c951515151515151538bd833c055680000000064ff30648920ff83140100000fb683f00000002c0372062c027210eb1a8b831c0100002983f8000000eb0c8b831c0100000183f80000008b83180100000183fc0000008d55fcb800000000e800000000ff75fc68000000008d45f850e80000000033c98d93f0000000e800000000ff75f88d83dc000000ba03000000e80000000083bb14010000010f8cad0000008bc3e8000000005368000000008d55f4b800000000e8000000008b55f4",
+      "mask": "ffffffffffffffffffffffffffffffffffffff00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00000000ff00000000ffffffff00000000ffffffffff00000000ffffffffffffffffff00000000ffffffffffffffffffffffffffffff00000000ffffffffffffffffffffffffffffffff00000000ffff00000000ffffffff00000000ff00000000ffffff",
+      "offset": 0,
+      "kind": "code"
+    },
+    {
+      "name": "AddChoice",
+      "rva": 1184184,
+      "target_rva": 1175176,
+      "data": "558bec33c9515151515151538bd833c055680000000064ff306489208bc3e8000000005368000000008d55fcb800000000e8000000008b55fc33c98bc3e8000000005368000000008d55f8b800000000e8000000008b55f833c98bc3e8000000005368000000008d55f4b800000000e8000000008b55f433c98bc3e8000000005368000000008d55f0b800000000e8000000008b55f033c98bc3e80000000080bbf000000002751f5368000000008d55ecb800000000e8000000008b55ec33c9",
+      "mask": "ffffffffffffffffffffffffffffffffffff00000000ffffffffffffffffff00000000ffff00000000ffffffff00000000ff00000000ffffffffffffffff00000000ffff00000000ffffffff00000000ff00000000ffffffffffffffff00000000ffff00000000ffffffff00000000ff00000000ffffffffffffffff00000000ffff00000000ffffffff00000000ff00000000ffffffffffffffff00000000ffffffffffffffffffffff00000000ffffffff00000000ff00000000ffffffffff",
+      "offset": 62,
+      "kind": "relative",
+      "guard": "558bec83c4cc53565733db895dd0895dcc895dd4895ddc895dd8894df48955fc8945f88d45fce80000000033c055680000000064ff3064892033dba1000000008338007451a1000000008b008b78084f85ff7c424733f6a1000000008b008bd6e8000000008b1033c98b45fce80000000085c07c1da1000000008b008bd6e8000000000fb640080fb6d33bc27d028bc28bd8464f75c180fb020f83be030000ba000000008b45f8e8000000008b1500000000e8000000008945f033f6eb148b45fc",
+      "guard_mask": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00000000ffffffff00000000ffffffffffffffffff00000000ffffffffffff00000000ffffffffffffffffffffffffffff00000000ffffffffff00000000ffffffffffffffff00000000ffffffffff00000000ffffffffff00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00000000ffffffff00000000ffff00000000ff00000000ffffffffffffffffffff"
+    },
+    {
+      "name": "ExecutePress",
+      "rva": 710928,
+      "data": "538bd88b83f001000085c07428b1018bd08b4318e8000000006683bb8200000000741a33c98bd38b8384000000ff93800000005bc3",
+      "mask": "ffffffffffffffffffffffffffffffffffffffffff00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+      "offset": 0,
+      "kind": "code"
+    },
+    {
+      "name": "MessageRightClick",
+      "rva": 3526068,
+      "data": "558bec83c4f856578b75088d7df8a5a58bf08d45f8506a008bc6e800000000e8000000005f5e59595dc20400",
+      "mask": "ffffffffffffffffffffffffffffffffffffffffffffffffffffff00000000ff00000000ffffffffffffffff",
+      "offset": 0,
+      "kind": "code"
+    },
+    {
+      "name": "CallbackStore",
+      "rva": 3523481,
+      "data": "8b45fc8983bc000000c783b8000000000000008b45fc898334010000c78330010000000000008d8398010000ba00000000e8000000008d839c010000ba00000000",
+      "mask": "ffffffffffffffffffffffffffffff00000000ffffffffffffffffffffffffffffff00000000ffffffffffffff00000000ff00000000ffffffffffffff00000000",
+      "offset": 9,
+      "kind": "code"
+    },
+    {
+      "name": "QuestLayout",
+      "rva": 1191250,
+      "data": "e8000000008b80200500008bd3e800000000e80000000033c98bd3e800000000803b00756cb201a100000000e8000000008bf86a006a0068000000008d55e80fb74302",
+      "mask": "ff00000000ffffffffffffffffff00000000ff00000000ffffffffff00000000ffffffffffffffff00000000ff00000000ffffffffffffff00000000ffffffffffffff",
+      "offset": 0,
+      "kind": "code"
+    },
+    {
+      "name": "GalaxyGlobal",
+      "rva": 4015048,
+      "data": "8935000000008b86cc0100008b40084885c07c3e40894588c745f4000000008b86cc0100008b55f4e8000000008945d033d28b45d0e8000000008b45d0e8000000008b45d0e800000000ff45f4ff4d88",
+      "mask": "ffff00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00000000ffffffffffffffffff00000000ffffffff00000000ffffffff00000000ffffffffffff",
+      "offset": 2,
+      "kind": "writable"
+    },
+    {
+      "name": "GalaxyGlobalCheck",
+      "rva": 4023486,
+      "data": "a10000000083b848010000007529db2d00000000d85df09bdfe09e761a8b45f88d485cbae8030000b801000000e80000000083f8037e52db2d00000000d85df09bdfe09e761a8b45f88d485cbae8030000",
+      "mask": "ff00000000ffffffffffffffffffffff00000000ffffffffffffffffffffffffffffffffffffffffffffffffffff00000000ffffffffffffff00000000ffffffffffffffffffffffffffffffffffffffff",
+      "offset": 1,
+      "kind": "writable"
+    },
+    {
+      "name": "GalaxyScreenGlobal",
+      "rva": 3809875,
+      "data": "a300000000a1000000008b15000000008950486a018b15000000008b12b900000000a100000000e800000000b201a100000000e800000000a300000000a1000000008b150000000089504c6a018b1500000000",
+      "mask": "ff00000000ff00000000ffff00000000ffffffffffffff00000000ffffff00000000ff00000000ff00000000ffffff00000000ff00000000ff00000000ff00000000ffff00000000ffffffffffffff00000000",
+      "offset": 1,
+      "kind": "writable"
+    },
+    {
+      "name": "GalaxyScreenGlobalCheck",
+      "rva": 3809885,
+      "data": "8b15000000008950486a018b15000000008b12b900000000a100000000e800000000b201a100000000e800000000a300000000a1000000008b150000000089504c6a018b15000000008b12b900000000",
+      "mask": "ffff00000000ffffffffffffff00000000ffffff00000000ff00000000ff00000000ffffff00000000ff00000000ff00000000ff00000000ffff00000000ffffffffffffff00000000ffffff00000000",
+      "offset": 2,
+      "kind": "writable"
+    },
+    {
+      "name": "FuelBaseGlobal",
+      "rva": 3740038,
+      "data": "a3000000008d4dccba000000008bc6e8000000008b45cce800000000d91d000000009b8d4dc4ba000000008bc6e8000000008b55c48d45c8e8000000008b45c8e800000000a3000000008d4dbcba00000000",
+      "mask": "ff00000000ffffffff00000000ffffff00000000ffffffff00000000ffff00000000ffffffffff00000000ffffff00000000ffffffffffffff00000000ffffffff00000000ff00000000ffffffff00000000",
+      "offset": 1,
+      "kind": "writable"
+    },
+    {
+      "name": "FuelBaseGlobalCheck",
+      "rva": 2917365,
+      "data": "a1000000000318b20b8b45fce8000000000fafd88b45fce8000000000fb64068508b45fce8000000005a8b4064922bc23bc37f028bd88b45fce8000000000158648b45fce80000000085c074698b45fc",
+      "mask": "ff00000000ffffffffffffffff00000000ffffffffffffff00000000ffffffffffffffffff00000000ffffffffffffffffffffffffffffffffff00000000ffffffffffffff00000000ffffffffffffff",
+      "offset": 1,
+      "kind": "indirect_writable"
+    },
+    {
+      "name": "FuelBoostGlobal",
+      "rva": 3741156,
+      "data": "a3000000008d8d24ffffffba000000008bc6e8000000008b8524ffffffe800000000d91d000000009b8d8d1cffffffba000000008bc6e8000000008b951cffffff8d8520ffffffe8000000008b8520ffffff",
+      "mask": "ff00000000ffffffffffffff00000000ffffff00000000ffffffffffffff00000000ffff00000000ffffffffffffffff00000000ffffff00000000ffffffffffffffffffffffffff00000000ffffffffffff",
+      "offset": 1,
+      "kind": "writable"
+    },
+    {
+      "name": "FuelBoostGlobalCheck",
+      "rva": 2917357,
+      "data": "a1000000000faf18a1000000000318b20b8b45fce8000000000fafd88b45fce8000000000fb64068508b45fce8000000005a8b4064922bc23bc37f028bd88b45fce8000000000158648b45fce800000000",
+      "mask": "ff00000000ffffffff00000000ffffffffffffffff00000000ffffffffffffff00000000ffffffffffffffffff00000000ffffffffffffffffffffffffffffffffff00000000ffffffffffffff00000000",
+      "offset": 1,
+      "kind": "indirect_writable"
+    }
+  ],
+  "edges": [
+    {
+      "source": "PlanetRelation",
+      "operand": 88,
+      "target": "GetPlayer"
+    },
+    {
+      "source": "PlanetRelation",
+      "operand": 97,
+      "target": "GetPlayer"
+    },
+    {
+      "source": "ArtefactBoost",
+      "operand": 28,
+      "target": "ArtefactCount"
+    },
+    {
+      "source": "ArtefactCount",
+      "operand": 52,
+      "target": "ArtefactCount"
+    },
+    {
+      "source": "ArtefactCount",
+      "operand": 82,
+      "target": "ArtefactCount"
+    },
+    {
+      "source": "ShowStarInfo",
+      "operand": 45,
+      "target": "GetPlayer"
+    },
+    {
+      "source": "ShowStarInfo",
+      "operand": 58,
+      "target": "GetPlayer"
+    },
+    {
+      "source": "ShowStarInfo",
+      "operand": 121,
+      "target": "GetByName"
+    },
+    {
+      "source": "ShowStarInfo",
+      "operand": 168,
+      "target": "GetByName"
+    },
+    {
+      "source": "ShipSpeed",
+      "operand": 12,
+      "target": "GetEngine"
+    },
+    {
+      "source": "ShipSpeed",
+      "operand": 27,
+      "target": "GetTank"
+    },
+    {
+      "source": "ShipSpeed",
+      "operand": 53,
+      "target": "GetPlayer"
+    },
+    {
+      "source": "ShipSpeed",
+      "operand": 64,
+      "target": "GetTank"
+    },
+    {
+      "source": "ShipSpeed",
+      "operand": 73,
+      "target": "EquipmentUsable"
+    },
+    {
+      "source": "ShipSpeed",
+      "operand": 88,
+      "target": "GetEngine"
+    },
+    {
+      "source": "ShipSpeed",
+      "operand": 97,
+      "target": "EquipmentUsable"
+    },
+    {
+      "source": "ShipRange",
+      "operand": 7,
+      "target": "GetEngine"
+    },
+    {
+      "source": "GalaxyOpen",
+      "operand": 74,
+      "target": "GetByName"
+    },
+    {
+      "source": "GalaxyOpen",
+      "operand": 103,
+      "target": "GetPlayer"
+    },
+    {
+      "source": "GalaxyOpen",
+      "operand": 125,
+      "target": "GetPlayer"
+    },
+    {
+      "source": "GalaxyOpen",
+      "operand": 157,
+      "target": "GetByName"
+    },
+    {
+      "source": "GalaxyOpen",
+      "operand": 187,
+      "target": "GetByName"
+    },
+    {
+      "source": "RebuildPath",
+      "operand": 54,
+      "target": "GetByName"
+    },
+    {
+      "source": "RebuildPath",
+      "operand": 72,
+      "target": "GetPlayer"
+    },
+    {
+      "source": "RebuildPath",
+      "operand": 147,
+      "target": "GetByName"
+    },
+    {
+      "source": "RebuildPath",
+      "operand": 165,
+      "target": "SetText"
+    },
+    {
+      "source": "RebuildPath",
+      "operand": 170,
+      "target": "GetPlayer"
+    },
+    {
+      "source": "GalaxyMouseUp",
+      "operand": 41,
+      "target": "GetByName"
+    },
+    {
+      "source": "GalaxyMouseUp",
+      "operand": 76,
+      "target": "GetByName"
+    },
+    {
+      "source": "GalaxyMouseUp",
+      "operand": 100,
+      "target": "GetByName"
+    },
+    {
+      "source": "GalaxyMouseUp",
+      "operand": 153,
+      "target": "GetByName"
+    },
+    {
+      "source": "GovClear",
+      "operand": 16,
+      "target": "GetByName"
+    },
+    {
+      "source": "GovOffer",
+      "operand": 31,
+      "target": "GovClear"
+    },
+    {
+      "source": "GovOffer",
+      "operand": 62,
+      "target": "AddChoice"
+    },
+    {
+      "source": "GovOffer",
+      "operand": 93,
+      "target": "AddChoice"
+    },
+    {
+      "source": "GovOffer",
+      "operand": 124,
+      "target": "AddChoice"
+    },
+    {
+      "source": "GovOffer",
+      "operand": 155,
+      "target": "AddChoice"
+    },
+    {
+      "source": "GovEasy",
+      "operand": 116,
+      "target": "GetPlayer"
+    },
+    {
+      "source": "GovEasy",
+      "operand": 168,
+      "target": "GovClear"
+    },
+    {
+      "source": "GovHard",
+      "operand": 116,
+      "target": "GetPlayer"
+    },
+    {
+      "source": "GovHard",
+      "operand": 168,
+      "target": "GovClear"
+    },
+    {
+      "source": "AddChoice",
+      "operand": 31,
+      "target": "GovClear"
+    },
+    {
+      "source": "AddChoice",
+      "operand": 62,
+      "target": "AddChoice"
+    },
+    {
+      "source": "AddChoice",
+      "operand": 93,
+      "target": "AddChoice"
+    },
+    {
+      "source": "AddChoice",
+      "operand": 124,
+      "target": "AddChoice"
+    },
+    {
+      "source": "AddChoice",
+      "operand": 155,
+      "target": "AddChoice"
+    },
+    {
+      "source": "QuestLayout",
+      "operand": 1,
+      "target": "GetPlayer"
+    },
+    {
+      "source": "QuestLayout",
+      "operand": 14,
+      "target": "ListAdd"
+    },
+    {
+      "source": "QuestLayout",
+      "operand": 19,
+      "target": "GetPlayer"
+    },
+    {
+      "source": "FuelBaseGlobalCheck",
+      "operand": 13,
+      "target": "ArtefactCount"
+    },
+    {
+      "source": "FuelBaseGlobalCheck",
+      "operand": 24,
+      "target": "GetTank"
+    },
+    {
+      "source": "FuelBaseGlobalCheck",
+      "operand": 37,
+      "target": "GetTank"
+    },
+    {
+      "source": "FuelBaseGlobalCheck",
+      "operand": 58,
+      "target": "GetTank"
+    },
+    {
+      "source": "FuelBaseGlobalCheck",
+      "operand": 69,
+      "target": "GetEngine"
+    },
+    {
+      "source": "FuelBoostGlobalCheck",
+      "operand": 21,
+      "target": "ArtefactCount"
+    },
+    {
+      "source": "FuelBoostGlobalCheck",
+      "operand": 32,
+      "target": "GetTank"
+    },
+    {
+      "source": "FuelBoostGlobalCheck",
+      "operand": 45,
+      "target": "GetTank"
+    },
+    {
+      "source": "FuelBoostGlobalCheck",
+      "operand": 66,
+      "target": "GetTank"
+    },
+    {
+      "source": "FuelBoostGlobalCheck",
+      "operand": 77,
+      "target": "GetEngine"
+    }
+  ],
+  "note": "Reference RVAs are generator provenance only. Runtime resolves signatures in executable sections."
+}

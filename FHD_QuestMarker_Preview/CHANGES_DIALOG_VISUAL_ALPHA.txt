@@ -1,0 +1,9 @@
+FHD_QuestMarker_Preview SCRIPT-ONLY dialogue visual fix (ALPHA)
+
+- Moves custom Show on Map button from Gov footer into choice panel area at 1920x1080 screenshot coordinates.
+- Dark-blue caption (0,0,139) matching original native choice rather than neon green.
+- Clicking Show on Map always opens Galaxy, with optional marker only when clipboard matches an exact star system name.
+- Removed all modal clipboard error MessageBox calls.
+- This is a visually placed GraphButton, NOT a true game dialogue answer injected by the government engine.
+- No automatic extraction of current offer target; native mod did so through Rangers.exe hooks.
+- In-game placement, especially at non-1920x1080 resolutions and other conversation states, UNVERIFIED.

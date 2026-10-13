@@ -1,0 +1,12 @@
+Bm {
+    FHDQuestMarker {
+        GovN=Mods\FHD_MODS\FHD_QuestMarker_Preview\Data\Image\2TipsN.gi
+        GovA=Mods\FHD_MODS\FHD_QuestMarker_Preview\Data\Image\2TipsA.gi
+        GovD=Mods\FHD_MODS\FHD_QuestMarker_Preview\Data\Image\2TipsD.gi
+        ClearN=Mods\FHD_MODS\FHD_QuestMarker_Preview\Data\Image\DelN.gi
+        ClearA=Mods\FHD_MODS\FHD_QuestMarker_Preview\Data\Image\DelA.gi
+        ClearD=Mods\FHD_MODS\FHD_QuestMarker_Preview\Data\Image\DelD.gi
+        RouteFrame=Mods\FHD_MODS\FHD_QuestMarker_Preview\Data\Image\RouteFrame.gi
+        GNPoQ=Mods\FHD_MODS\FHD_QuestMarker_Preview\Data\Image\GNPoQ.gai
+    }
+}

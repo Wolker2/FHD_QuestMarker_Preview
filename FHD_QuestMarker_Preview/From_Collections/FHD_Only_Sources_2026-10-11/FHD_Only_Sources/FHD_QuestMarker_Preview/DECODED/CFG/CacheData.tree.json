@@ -1,0 +1,56 @@
+{
+  "format": "cache",
+  "header_key": 3935256375,
+  "new_format": false,
+  "seed": 1369621460,
+  "sha256": "9e63820a73c9c3005e766aff3378872f2d80517649f1f785841e932376cb6a1e",
+  "tree": {
+    "sorted": true,
+    "entries": [
+      {
+        "name": "Bm",
+        "block": {
+          "sorted": true,
+          "entries": [
+            {
+              "name": "FHDQuestMarker",
+              "block": {
+                "sorted": true,
+                "entries": [
+                  {
+                    "name": "ClearA",
+                    "value": "Mods\\FHD_MODS\\FHD_QuestMarker_Preview\\Data\\Image\\DelA.gi"
+                  },
+                  {
+                    "name": "ClearD",
+                    "value": "Mods\\FHD_MODS\\FHD_QuestMarker_Preview\\Data\\Image\\DelD.gi"
+                  },
+                  {
+                    "name": "ClearN",
+                    "value": "Mods\\FHD_MODS\\FHD_QuestMarker_Preview\\Data\\Image\\DelN.gi"
+                  },
+                  {
+                    "name": "GNPoQ",
+                    "value": "Mods\\FHD_MODS\\FHD_QuestMarker_Preview\\Data\\Image\\GNPoQ.gai"
+                  },
+                  {
+                    "name": "GovA",
+                    "value": "Mods\\FHD_MODS\\FHD_QuestMarker_Preview\\Data\\Image\\2TipsA.gi"
+                  },
+                  {
+                    "name": "GovD",
+                    "value": "Mods\\FHD_MODS\\FHD_QuestMarker_Preview\\Data\\Image\\2TipsD.gi"
+                  },
+                  {
+                    "name": "GovN",
+                    "value": "Mods\\FHD_MODS\\FHD_QuestMarker_Preview\\Data\\Image\\2TipsN.gi"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

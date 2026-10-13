@@ -1,0 +1,1341 @@
+{
+  "format": "blockpar",
+  "header_key": 2984822409,
+  "new_format": true,
+  "seed": 1369621460,
+  "sha256": "aceac3852644ad8c905de3102e84e08f2f7d25f317490e8aa794efb84da775e8",
+  "tree": {
+    "sorted": true,
+    "entries": [
+      {
+        "name": "BV",
+        "block": {
+          "sorted": true,
+          "entries": [
+            {
+              "name": "OnLoad",
+              "block": {
+                "sorted": false,
+                "entries": [
+                  {
+                    "name": "FHDQuestMarkerInit",
+                    "block": {
+                      "sorted": true,
+                      "entries": [
+                        {
+                          "name": "00",
+                          "value": "unknown init=ImportedFunction('FHDQuestNative','FHDQuest_Init');",
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "name": "01",
+                          "value": "init();",
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "metadata": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "OnStart",
+              "block": {
+                "sorted": false,
+                "entries": [
+                  {
+                    "name": "FHDQuestMarkerInit",
+                    "block": {
+                      "sorted": true,
+                      "entries": [
+                        {
+                          "name": "00",
+                          "value": "unknown init=ImportedFunction('FHDQuestNative','FHDQuest_Init');",
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "name": "01",
+                          "value": "init();",
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "metadata": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        "metadata": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "Data",
+        "block": {
+          "sorted": true,
+          "entries": [
+            {
+              "name": "ScriptLibs",
+              "block": {
+                "sorted": false,
+                "entries": [
+                  {
+                    "name": "FHDQuestNative",
+                    "block": {
+                      "sorted": true,
+                      "entries": [
+                        {
+                          "name": "FHDQuest_Init",
+                          "value": "int,FHDQuest_Init",
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "name": "FHD_GetKind",
+                          "value": "int,FHD_GetKind",
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "name": "FHD_GetTarget",
+                          "value": "int,FHD_GetTarget",
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "name": "FHD_OfferKind",
+                          "value": "int,FHD_OfferKind",
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "name": "FHD_OfferTarget",
+                          "value": "int,FHD_OfferTarget",
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "name": "FHD_Reset",
+                          "value": "int,FHD_Reset",
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "name": "Path",
+                          "value": "Mods\\FHD_MODS\\FHD_QuestMarker_Preview\\Native\\FHDQuestMarker.dll",
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "QuestMarker",
+                    "value": "FHDQuestNative"
+                  }
+                ]
+              },
+              "metadata": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        "metadata": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "ML",
+        "block": {
+          "sorted": true,
+          "entries": [
+            {
+              "name": "EquipmentShop",
+              "block": {
+                "sorted": true,
+                "entries": [
+                  {
+                    "name": "Panel",
+                    "block": {
+                      "sorted": true,
+                      "entries": [
+                        {
+                          "name": "Panel",
+                          "block": {
+                            "sorted": true,
+                            "entries": [
+                              {
+                                "name": "Panel",
+                                "block": {
+                                  "sorted": false,
+                                  "entries": [
+                                    {
+                                      "name": "OnMouseRightClick",
+                                      "block": {
+                                        "sorted": true,
+                                        "entries": [
+                                          {
+                                            "name": "00",
+                                            "value": "ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Show'));",
+                                            "metadata": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                },
+                                "metadata": [
+                                  0,
+                                  1
+                                ]
+                              }
+                            ]
+                          },
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        }
+                      ]
+                    },
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  }
+                ]
+              },
+              "metadata": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Galaxy",
+              "block": {
+                "sorted": true,
+                "entries": [
+                  {
+                    "name": "Panel",
+                    "block": {
+                      "sorted": true,
+                      "entries": [
+                        {
+                          "name": "Panel",
+                          "block": {
+                            "sorted": true,
+                            "entries": [
+                              {
+                                "name": "Panel",
+                                "block": {
+                                  "sorted": false,
+                                  "entries": [
+                                    {
+                                      "name": "OnMouseRightClick",
+                                      "block": {
+                                        "sorted": true,
+                                        "entries": [
+                                          {
+                                            "name": "00",
+                                            "value": "ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Show'));",
+                                            "metadata": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                },
+                                "metadata": [
+                                  0,
+                                  1
+                                ]
+                              }
+                            ]
+                          },
+                          "metadata": [
+                            0,
+                            2
+                          ]
+                        },
+                        {
+                          "name": "Panel",
+                          "block": {
+                            "sorted": true,
+                            "entries": [
+                              {
+                                "name": "GraphButton",
+                                "block": {
+                                  "sorted": true,
+                                  "entries": []
+                                },
+                                "metadata": [
+                                  0,
+                                  4
+                                ]
+                              },
+                              {
+                                "name": "GraphButton",
+                                "block": {
+                                  "sorted": true,
+                                  "entries": []
+                                },
+                                "metadata": [
+                                  1,
+                                  0
+                                ]
+                              },
+                              {
+                                "name": "GraphButton",
+                                "block": {
+                                  "sorted": true,
+                                  "entries": []
+                                },
+                                "metadata": [
+                                  2,
+                                  0
+                                ]
+                              },
+                              {
+                                "name": "GraphButton",
+                                "block": {
+                                  "sorted": false,
+                                  "entries": [
+                                    {
+                                      "name": "Help",
+                                      "value": "Help.FHDQuestClear"
+                                    },
+                                    {
+                                      "name": "ImageDown",
+                                      "value": "GI,Bm.FHDQuestMarker.ClearD"
+                                    },
+                                    {
+                                      "name": "ImageNormal",
+                                      "value": "GI,Bm.FHDQuestMarker.ClearN"
+                                    },
+                                    {
+                                      "name": "ImageNormalA",
+                                      "value": "GI,Bm.FHDQuestMarker.ClearA"
+                                    },
+                                    {
+                                      "name": "OnPressCode",
+                                      "block": {
+                                        "sorted": true,
+                                        "entries": [
+                                          {
+                                            "name": "00",
+                                            "value": "InterfaceState('Galaxy','FHDQuestMarkV035',-1);InterfacePos('Galaxy','FHDQuestMarkV035',0,0,0);",
+                                            "metadata": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                },
+                                "metadata": [
+                                  3,
+                                  0
+                                ]
+                              },
+                              {
+                                "name": "Panel",
+                                "block": {
+                                  "sorted": true,
+                                  "entries": [
+                                    {
+                                      "name": "FHDQuestMarkerOverlay",
+                                      "block": {
+                                        "sorted": true,
+                                        "entries": [
+                                          {
+                                            "name": "Image",
+                                            "block": {
+                                              "sorted": true,
+                                              "entries": [
+                                                {
+                                                  "name": "Active",
+                                                  "value": "False",
+                                                  "metadata": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Image",
+                                                  "value": "GAI,Bm.FHDQuestMarker.GNPoQ",
+                                                  "metadata": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "MouseBlocking",
+                                                  "value": "False",
+                                                  "metadata": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "MouseBlockingTest",
+                                                  "value": "False",
+                                                  "metadata": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Name",
+                                                  "value": "FHDQuestMarkV035",
+                                                  "metadata": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Pos",
+                                                  "value": "0,0,-10",
+                                                  "metadata": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Size",
+                                                  "value": "50,50",
+                                                  "metadata": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            "metadata": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "metadata": [
+                                  0,
+                                  1
+                                ]
+                              }
+                            ]
+                          },
+                          "metadata": [
+                            1,
+                            0
+                          ]
+                        }
+                      ]
+                    },
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  }
+                ]
+              },
+              "metadata": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "GoodsShop",
+              "block": {
+                "sorted": true,
+                "entries": [
+                  {
+                    "name": "Panel",
+                    "block": {
+                      "sorted": true,
+                      "entries": [
+                        {
+                          "name": "Panel",
+                          "block": {
+                            "sorted": true,
+                            "entries": [
+                              {
+                                "name": "Panel",
+                                "block": {
+                                  "sorted": false,
+                                  "entries": [
+                                    {
+                                      "name": "OnMouseRightClick",
+                                      "block": {
+                                        "sorted": true,
+                                        "entries": [
+                                          {
+                                            "name": "00",
+                                            "value": "ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Show'));",
+                                            "metadata": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                },
+                                "metadata": [
+                                  0,
+                                  1
+                                ]
+                              }
+                            ]
+                          },
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        }
+                      ]
+                    },
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  }
+                ]
+              },
+              "metadata": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Gov",
+              "block": {
+                "sorted": true,
+                "entries": [
+                  {
+                    "name": "Panel",
+                    "block": {
+                      "sorted": true,
+                      "entries": [
+                        {
+                          "name": "Panel",
+                          "block": {
+                            "sorted": true,
+                            "entries": [
+                              {
+                                "name": "Panel",
+                                "block": {
+                                  "sorted": false,
+                                  "entries": [
+                                    {
+                                      "name": "OnMouseRightClick",
+                                      "block": {
+                                        "sorted": true,
+                                        "entries": [
+                                          {
+                                            "name": "00",
+                                            "value": "ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Show'));",
+                                            "metadata": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                },
+                                "metadata": [
+                                  0,
+                                  1
+                                ]
+                              }
+                            ]
+                          },
+                          "metadata": [
+                            0,
+                            2
+                          ]
+                        },
+                        {
+                          "name": "Panel",
+                          "block": {
+                            "sorted": true,
+                            "entries": [
+                              {
+                                "name": "QuestReturnControl",
+                                "block": {
+                                  "sorted": true,
+                                  "entries": [
+                                    {
+                                      "name": "Panel",
+                                      "block": {
+                                        "sorted": true,
+                                        "entries": [
+                                          {
+                                            "name": "GraphButton",
+                                            "block": {
+                                              "sorted": false,
+                                              "entries": [
+                                                {
+                                                  "name": "Active",
+                                                  "value": "False"
+                                                },
+                                                {
+                                                  "name": "Kind",
+                                                  "value": "Normal"
+                                                },
+                                                {
+                                                  "name": "KindHit",
+                                                  "value": "Rect"
+                                                },
+                                                {
+                                                  "name": "MouseBlocking",
+                                                  "value": "False"
+                                                },
+                                                {
+                                                  "name": "Name",
+                                                  "value": "FHDQuestReturnButton"
+                                                },
+                                                {
+                                                  "name": "OnPressCode",
+                                                  "block": {
+                                                    "sorted": true,
+                                                    "entries": [
+                                                      {
+                                                        "name": "00",
+                                                        "value": "ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Return'));",
+                                                        "metadata": [
+                                                          0,
+                                                          1
+                                                        ]
+                                                      }
+                                                    ]
+                                                  }
+                                                },
+                                                {
+                                                  "name": "Pos",
+                                                  "value": "-1000,-1000,-9999"
+                                                },
+                                                {
+                                                  "name": "Size",
+                                                  "value": "1,1"
+                                                }
+                                              ]
+                                            },
+                                            "metadata": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "name": "Name",
+                                            "value": "QuestReturnControl",
+                                            "metadata": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "name": "Pos",
+                                            "value": "-1000,-1000,-9999",
+                                            "metadata": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "name": "Size",
+                                            "value": "1,1",
+                                            "metadata": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "metadata": [
+                                  0,
+                                  1
+                                ]
+                              }
+                            ]
+                          },
+                          "metadata": [
+                            1,
+                            0
+                          ]
+                        }
+                      ]
+                    },
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  }
+                ]
+              },
+              "metadata": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Hangar",
+              "block": {
+                "sorted": true,
+                "entries": [
+                  {
+                    "name": "Panel",
+                    "block": {
+                      "sorted": true,
+                      "entries": [
+                        {
+                          "name": "Panel",
+                          "block": {
+                            "sorted": true,
+                            "entries": [
+                              {
+                                "name": "Panel",
+                                "block": {
+                                  "sorted": false,
+                                  "entries": [
+                                    {
+                                      "name": "OnMouseRightClick",
+                                      "block": {
+                                        "sorted": true,
+                                        "entries": [
+                                          {
+                                            "name": "00",
+                                            "value": "ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Show'));",
+                                            "metadata": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                },
+                                "metadata": [
+                                  0,
+                                  1
+                                ]
+                              }
+                            ]
+                          },
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        }
+                      ]
+                    },
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  }
+                ]
+              },
+              "metadata": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Info",
+              "block": {
+                "sorted": true,
+                "entries": [
+                  {
+                    "name": "Panel",
+                    "block": {
+                      "sorted": true,
+                      "entries": [
+                        {
+                          "name": "Panel",
+                          "block": {
+                            "sorted": true,
+                            "entries": [
+                              {
+                                "name": "Panel",
+                                "block": {
+                                  "sorted": false,
+                                  "entries": [
+                                    {
+                                      "name": "OnMouseRightClick",
+                                      "block": {
+                                        "sorted": true,
+                                        "entries": [
+                                          {
+                                            "name": "00",
+                                            "value": "ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Show'));",
+                                            "metadata": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                },
+                                "metadata": [
+                                  0,
+                                  1
+                                ]
+                              }
+                            ]
+                          },
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        }
+                      ]
+                    },
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  }
+                ]
+              },
+              "metadata": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Journal",
+              "block": {
+                "sorted": true,
+                "entries": [
+                  {
+                    "name": "Panel",
+                    "block": {
+                      "sorted": true,
+                      "entries": [
+                        {
+                          "name": "Panel",
+                          "block": {
+                            "sorted": true,
+                            "entries": [
+                              {
+                                "name": "Panel",
+                                "block": {
+                                  "sorted": false,
+                                  "entries": [
+                                    {
+                                      "name": "OnMouseRightClick",
+                                      "block": {
+                                        "sorted": true,
+                                        "entries": [
+                                          {
+                                            "name": "00",
+                                            "value": "ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Show'));",
+                                            "metadata": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                },
+                                "metadata": [
+                                  0,
+                                  1
+                                ]
+                              }
+                            ]
+                          },
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        }
+                      ]
+                    },
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  }
+                ]
+              },
+              "metadata": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Planet",
+              "block": {
+                "sorted": true,
+                "entries": [
+                  {
+                    "name": "Panel",
+                    "block": {
+                      "sorted": true,
+                      "entries": [
+                        {
+                          "name": "Panel",
+                          "block": {
+                            "sorted": true,
+                            "entries": [
+                              {
+                                "name": "Panel",
+                                "block": {
+                                  "sorted": false,
+                                  "entries": [
+                                    {
+                                      "name": "OnMouseRightClick",
+                                      "block": {
+                                        "sorted": true,
+                                        "entries": [
+                                          {
+                                            "name": "00",
+                                            "value": "ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Show'));",
+                                            "metadata": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                },
+                                "metadata": [
+                                  0,
+                                  1
+                                ]
+                              }
+                            ]
+                          },
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        }
+                      ]
+                    },
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  }
+                ]
+              },
+              "metadata": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "PlanetNO",
+              "block": {
+                "sorted": true,
+                "entries": [
+                  {
+                    "name": "Panel",
+                    "block": {
+                      "sorted": true,
+                      "entries": [
+                        {
+                          "name": "Panel",
+                          "block": {
+                            "sorted": true,
+                            "entries": [
+                              {
+                                "name": "Panel",
+                                "block": {
+                                  "sorted": false,
+                                  "entries": [
+                                    {
+                                      "name": "OnMouseRightClick",
+                                      "block": {
+                                        "sorted": true,
+                                        "entries": [
+                                          {
+                                            "name": "00",
+                                            "value": "ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Show'));",
+                                            "metadata": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                },
+                                "metadata": [
+                                  0,
+                                  1
+                                ]
+                              }
+                            ]
+                          },
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        }
+                      ]
+                    },
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  }
+                ]
+              },
+              "metadata": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Rating",
+              "block": {
+                "sorted": true,
+                "entries": [
+                  {
+                    "name": "Panel",
+                    "block": {
+                      "sorted": true,
+                      "entries": [
+                        {
+                          "name": "Panel",
+                          "block": {
+                            "sorted": true,
+                            "entries": [
+                              {
+                                "name": "Panel",
+                                "block": {
+                                  "sorted": false,
+                                  "entries": [
+                                    {
+                                      "name": "OnMouseRightClick",
+                                      "block": {
+                                        "sorted": true,
+                                        "entries": [
+                                          {
+                                            "name": "00",
+                                            "value": "ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Show'));",
+                                            "metadata": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                },
+                                "metadata": [
+                                  0,
+                                  1
+                                ]
+                              }
+                            ]
+                          },
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        }
+                      ]
+                    },
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  }
+                ]
+              },
+              "metadata": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "RuinsTalk",
+              "block": {
+                "sorted": true,
+                "entries": [
+                  {
+                    "name": "Panel",
+                    "block": {
+                      "sorted": true,
+                      "entries": [
+                        {
+                          "name": "Panel",
+                          "block": {
+                            "sorted": true,
+                            "entries": [
+                              {
+                                "name": "Panel",
+                                "block": {
+                                  "sorted": false,
+                                  "entries": [
+                                    {
+                                      "name": "OnMouseRightClick",
+                                      "block": {
+                                        "sorted": true,
+                                        "entries": [
+                                          {
+                                            "name": "00",
+                                            "value": "ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Show'));",
+                                            "metadata": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                },
+                                "metadata": [
+                                  0,
+                                  1
+                                ]
+                              }
+                            ]
+                          },
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        }
+                      ]
+                    },
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  }
+                ]
+              },
+              "metadata": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Ship",
+              "block": {
+                "sorted": true,
+                "entries": [
+                  {
+                    "name": "Panel",
+                    "block": {
+                      "sorted": true,
+                      "entries": [
+                        {
+                          "name": "Panel",
+                          "block": {
+                            "sorted": true,
+                            "entries": [
+                              {
+                                "name": "Panel",
+                                "block": {
+                                  "sorted": false,
+                                  "entries": [
+                                    {
+                                      "name": "OnMouseRightClick",
+                                      "block": {
+                                        "sorted": true,
+                                        "entries": [
+                                          {
+                                            "name": "00",
+                                            "value": "ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Show'));",
+                                            "metadata": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                },
+                                "metadata": [
+                                  0,
+                                  1
+                                ]
+                              }
+                            ]
+                          },
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        }
+                      ]
+                    },
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  }
+                ]
+              },
+              "metadata": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "StarMap",
+              "block": {
+                "sorted": true,
+                "entries": [
+                  {
+                    "name": "Panel",
+                    "block": {
+                      "sorted": true,
+                      "entries": [
+                        {
+                          "name": "Panel",
+                          "block": {
+                            "sorted": true,
+                            "entries": [
+                              {
+                                "name": "Panel",
+                                "block": {
+                                  "sorted": true,
+                                  "entries": [
+                                    {
+                                      "name": "Panel",
+                                      "block": {
+                                        "sorted": false,
+                                        "entries": [
+                                          {
+                                            "name": "OnMouseRightClick",
+                                            "block": {
+                                              "sorted": true,
+                                              "entries": [
+                                                {
+                                                  "name": "00",
+                                                  "value": "ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Show'));",
+                                                  "metadata": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      },
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "metadata": [
+                                  0,
+                                  1
+                                ]
+                              }
+                            ]
+                          },
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        }
+                      ]
+                    },
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  }
+                ]
+              },
+              "metadata": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        "metadata": [
+          0,
+          1
+        ]
+      }
+    ]
+  }
+}

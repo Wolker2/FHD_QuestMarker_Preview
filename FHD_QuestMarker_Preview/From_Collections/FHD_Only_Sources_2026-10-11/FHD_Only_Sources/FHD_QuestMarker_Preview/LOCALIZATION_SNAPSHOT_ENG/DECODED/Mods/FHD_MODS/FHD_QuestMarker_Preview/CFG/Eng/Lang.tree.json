@@ -1,0 +1,372 @@
+{
+  "format": "blockpar",
+  "header_key": 2984822409,
+  "new_format": true,
+  "seed": 1369621460,
+  "sha256": "66a1217ae6732e03aaebe4d19496936a2e75b92e21603afca2016b62e18276f2",
+  "tree": {
+    "sorted": true,
+    "entries": [
+      {
+        "name": "Help",
+        "block": {
+          "sorted": true,
+          "entries": [
+            {
+              "name": "FHDQuestClear",
+              "value": "Remove the mission marker from the galaxy map",
+              "metadata": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "FHDQuestReturn",
+              "value": "Show the destination planet for the offered mission on the map",
+              "metadata": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        "metadata": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "Script",
+        "block": {
+          "sorted": true,
+          "entries": [
+            {
+              "name": "QuestMarker",
+              "block": {
+                "sorted": true,
+                "entries": [
+                  {
+                    "name": "Place",
+                    "block": {
+                      "sorted": true,
+                      "entries": [
+                        {
+                          "name": "00",
+                          "value": "if(!star)exit;",
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "name": "01",
+                          "value": "float x=CoordX(star)*100;",
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "name": "02",
+                          "value": "x=x/150;",
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "name": "03",
+                          "value": "x=x*768;",
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "name": "04",
+                          "value": "x=x/100;",
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "name": "05",
+                          "value": "float y=CoordY(star)*527;",
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "name": "06",
+                          "value": "y=y/100;",
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "name": "07",
+                          "value": "InterfacePos('Galaxy','FHDQuestMarkV035',-25+x+CoordX(star)/5,-25+y,0);",
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "name": "08",
+                          "value": "InterfaceState('Galaxy','FHDQuestMarkV035',1);",
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "name": "09",
+                          "value": "if(CurrentForm()!='Galaxy')RunChildForm('Galaxy',2);",
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        }
+                      ]
+                    },
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "Return",
+                    "block": {
+                      "sorted": true,
+                      "entries": [
+                        {
+                          "name": "00",
+                          "value": "unknown getKind=ImportedFunction('FHDQuestNative','FHD_OfferKind');",
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "name": "01",
+                          "value": "unknown getTarget=ImportedFunction('FHDQuestNative','FHD_OfferTarget');",
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "name": "02",
+                          "value": "int kind=getKind();",
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "name": "03",
+                          "value": "if(kind<0)exit;",
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "name": "04",
+                          "value": "dword target=getTarget();",
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "name": "05",
+                          "value": "if(!target)exit;",
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "name": "06",
+                          "value": "dword star=0;",
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "name": "07",
+                          "value": "if(kind==0 || kind==2)star=PlanetToStar(target);",
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "name": "08",
+                          "value": "if(kind==1 || kind==4)star=ShipStar(target);",
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "name": "09",
+                          "value": "if(kind==3)star=target;",
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "name": "10",
+                          "value": "ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Place'),'star',star);",
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        }
+                      ]
+                    },
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "Show",
+                    "block": {
+                      "sorted": true,
+                      "entries": [
+                        {
+                          "name": "00",
+                          "value": "unknown getKind=ImportedFunction('FHDQuestNative','FHD_GetKind');",
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "name": "01",
+                          "value": "unknown getTarget=ImportedFunction('FHDQuestNative','FHD_GetTarget');",
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "name": "02",
+                          "value": "unknown reset=ImportedFunction('FHDQuestNative','FHD_Reset');",
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "name": "03",
+                          "value": "int kind=getKind();",
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "name": "04",
+                          "value": "if(kind<0)exit;",
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "name": "05",
+                          "value": "dword target=getTarget();",
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "name": "06",
+                          "value": "reset();",
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "name": "07",
+                          "value": "if(!target)exit;",
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "name": "08",
+                          "value": "dword star=0;",
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "name": "09",
+                          "value": "if(kind==0 || kind==2)star=PlanetToStar(target);",
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "name": "10",
+                          "value": "if(kind==1 || kind==4)star=ShipStar(target);",
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "name": "11",
+                          "value": "if(kind==3)star=target;",
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "name": "12",
+                          "value": "ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Place'),'star',star);",
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        }
+                      ]
+                    },
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  }
+                ]
+              },
+              "metadata": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        "metadata": [
+          0,
+          1
+        ]
+      }
+    ]
+  }
+}

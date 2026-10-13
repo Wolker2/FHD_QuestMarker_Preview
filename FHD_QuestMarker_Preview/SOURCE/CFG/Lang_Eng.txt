@@ -1,0 +1,42 @@
+Help ~{
+    FHDQuestGovMap=Open the galaxy map. If an exact system name is copied, the animated marker will appear. Government quest target is not available without the EXE bridge.
+    FHDQuestClear=Remove your custom marker. The game route is not changed.
+    FHDQuestPaste=Place the animated marker on the star system whose name is in the clipboard.
+    FHDQuestManual=Custom destination marker. Game route and mission deadline are independent.
+}
+Script ^{
+    QuestMarker ^{
+        Clear ^{
+            00=InterfaceState('Galaxy','FHDQuestMarkV035',-1);
+            01=InterfacePos('Galaxy','FHDQuestMarkV035',0,0,0);
+            02=InterfaceState('Galaxy','FHDQuestRouteInfo',-1);
+            03=InterfaceText('Galaxy','FHDQuestRouteInfo','');
+        }
+        Mark ^{
+            00=if(!star)exit;
+            01=float x=CoordX(star)*100;
+            02=x=x/150;
+            03=x=x*768;
+            04=x=x/100;
+            05=float y=CoordY(star)*527;
+            06=y=y/100;
+            07=InterfacePos('Galaxy','FHDQuestMarkV035',-25+x+CoordX(star)/5,-25+y,0);
+            08=InterfaceState('Galaxy','FHDQuestMarkV035',1);
+            09=InterfaceText('Galaxy','FHDQuestRouteInfo','Marker: '+StarName(star));
+            10=InterfaceState('Galaxy','FHDQuestRouteInfo',1);
+        }
+        GovOpenMap ^{
+            00=ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Paste'));
+        }
+        Paste ^{
+            00=str needle=GetStringFromClipboard();
+            01=if(needle==''){InterfaceText('Galaxy','FHDQuestRouteInfo','Copy the exact system name and press Marker to set it.');InterfaceState('Galaxy','FHDQuestRouteInfo',1);if(CurrentForm()!='Galaxy')RunChildForm('Galaxy',2);exit;}
+            02=dword found=0;
+            03=for(int i=0;i<GalaxyStars();i=i+1){dword candidate=GalaxyStar(i);if(!candidate)continue;if(StarName(candidate)==needle){found=candidate;break;}}
+            04=if(!found){InterfaceText('Galaxy','FHDQuestRouteInfo','System not found. Copy the exact system name only.');InterfaceState('Galaxy','FHDQuestRouteInfo',1);if(CurrentForm()!='Galaxy')RunChildForm('Galaxy',2);exit;}
+            05=ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Clear'));
+            06=ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Mark'),'star',found);
+            07=if(CurrentForm()!='Galaxy')RunChildForm('Galaxy',2);
+        }
+    }
+}

@@ -1,0 +1,13 @@
+﻿{
+    "AdapterVersion":  "0.4.0-test",
+    "TimeUtc":  "2026-10-12T09:12:37.9328333Z",
+    "Executable":  "D:\\SteamLibrary\\steamapps\\common\\Space Rangers HD A War Apart\\Rangers.exe",
+    "ExeSHA256":  "E43A4B15503C705EEBE2D8CE5778C2A2FB090DB515A3FD86D319E5C5AA692EBF",
+    "DllSHA256":  "1EA91C2C07B7C405190E7438AF32C9DFCB9F0BAE4C6B0D9A668450FDAAF32A77",
+    "Compatible":  true,
+    "Profile":  "2026-reference",
+    "Reason":  0,
+    "Symbol":  "GalaxyGlobal",
+    "Error":  null,
+    "Scope":  "Read-only on-disk PE probe. Running image is verified independently by the mod."
+}

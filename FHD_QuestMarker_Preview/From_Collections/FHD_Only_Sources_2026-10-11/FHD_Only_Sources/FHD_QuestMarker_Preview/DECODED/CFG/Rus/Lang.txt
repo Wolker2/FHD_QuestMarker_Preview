@@ -1,0 +1,48 @@
+Help ^{
+    FHDQuestClear=Убрать метку задания с галактической карты
+    FHDQuestReturn=Показать на карте планету сдачи предложенного задания
+}
+Script ^{
+    QuestMarker ^{
+        Place ^{
+            00=if(!star)exit;
+            01=float x=CoordX(star)*100;
+            02=x=x/150;
+            03=x=x*768;
+            04=x=x/100;
+            05=float y=CoordY(star)*527;
+            06=y=y/100;
+            07=InterfacePos('Galaxy','FHDQuestMarkV035',-25+x+CoordX(star)/5,-25+y,0);
+            08=InterfaceState('Galaxy','FHDQuestMarkV035',1);
+            09=if(CurrentForm()!='Galaxy')RunChildForm('Galaxy',2);
+        }
+        Return ^{
+            00=unknown getKind=ImportedFunction('FHDQuestNative','FHD_OfferKind');
+            01=unknown getTarget=ImportedFunction('FHDQuestNative','FHD_OfferTarget');
+            02=int kind=getKind();
+            03=if(kind<0)exit;
+            04=dword target=getTarget();
+            05=if(!target)exit;
+            06=dword star=0;
+            07=if(kind==0 || kind==2)star=PlanetToStar(target);
+            08=if(kind==1 || kind==4)star=ShipStar(target);
+            09=if(kind==3)star=target;
+            10=ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Place'),'star',star);
+        }
+        Show ^{
+            00=unknown getKind=ImportedFunction('FHDQuestNative','FHD_GetKind');
+            01=unknown getTarget=ImportedFunction('FHDQuestNative','FHD_GetTarget');
+            02=unknown reset=ImportedFunction('FHDQuestNative','FHD_Reset');
+            03=int kind=getKind();
+            04=if(kind<0)exit;
+            05=dword target=getTarget();
+            06=reset();
+            07=if(!target)exit;
+            08=dword star=0;
+            09=if(kind==0 || kind==2)star=PlanetToStar(target);
+            10=if(kind==1 || kind==4)star=ShipStar(target);
+            11=if(kind==3)star=target;
+            12=ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Place'),'star',star);
+        }
+    }
+}

@@ -1,0 +1,7 @@
+FHD Quest Marker script-only GOV-BUTTON ALPHA
+- Added Gov screen button Show on Map
+- Removed unsupported LowerCase runtime call
+- Opens Galaxy after successful exact star name match
+- No EXE/DLL references in runtime
+- This is NOT an inserted government quest dialogue answer
+- In-game behavior remains unverified

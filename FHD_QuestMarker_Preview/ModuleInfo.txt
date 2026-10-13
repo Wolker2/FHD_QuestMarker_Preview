@@ -1,0 +1,14 @@
+Name=FHD_QuestMarker_Preview
+Section=FHD_MODS
+Author=Prolog_D
+Dependence=UtilityFunctionsPack,AModGalaxyLite
+Conflict=
+Priority=1
+Languages=Rus
+SmallDescription=[AModGalaxyLite AGL5] 0.3.12: маршрут, анимированная цель и срок задания.
+FullDescription=[AModGalaxyLite AGL5] После запроса специального задания пункт «Показать на карте» прокладывает маршрут по текущему оборудованию и топливу. Показывает оценку дней пути и срок задания. В конце маршрута — анимированная метка. ПКМ по принятому заданию сохраняет анимированную метку. Кнопка сброса очищает маршрут и метку. Основа: присланная рабочая версия с исправленной рамкой. Точность времени требует проверки в игре.
+SmallDescription=------------------------------------  <color=0,200,255>ENG</color>  ----------------------------------------
+FullDescription=[AModGalaxyLite AGL5]  ------------------------------------  <color=0,200,255>ENG</color>  ----------------------------------------
+Languages=Eng
+SmallDescription=[AModGalaxyLite AGL5] 0.3.12: mission route, animated endpoint and mission deadline.
+FullDescription=[AModGalaxyLite AGL5] After requesting a special mission, "Show on map" plots a route using current equipment and fuel, with estimated travel days, mission deadline and an animated endpoint. RMB on an accepted mission keeps the animated target marker. Reset clears the route and marker. Based on the supplied version with the corrected frame. Travel time accuracy requires in-game validation.

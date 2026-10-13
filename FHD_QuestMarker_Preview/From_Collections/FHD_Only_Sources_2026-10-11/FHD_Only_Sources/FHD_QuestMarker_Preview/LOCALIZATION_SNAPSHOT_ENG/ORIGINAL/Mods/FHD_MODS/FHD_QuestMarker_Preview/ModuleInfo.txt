@@ -1,0 +1,14 @@
+Name=FHD_QuestMarker_Preview
+Section=FHD_MODS
+Author=Prolog_D
+Dependence=
+Conflict=
+Priority=1
+Languages=Rus
+SmallDescription=Метка цели правительственного задания на галактической карте.
+FullDescription=После получения предложения задания в правительстве добавляет пункт «Показать на карте». Он открывает галактическую карту и отмечает реальную цель предложенного задания. После принятия задания ПКМ по нему в информационной панели показывает цель на карте. Метка анимированная; отдельная кнопка на галакарте сбрасывает метку.
+SmallDescription=------------------------------------  <color=0,200,255>ENG</color>  ----------------------------------------
+FullDescription= ------------------------------------  <color=0,200,255>ENG</color>  ----------------------------------------
+Languages=Eng
+SmallDescription=Government mission target marker on the galactic map.
+FullDescription=After receiving a mission offer at a government station, adds a "Show on map" option. It opens the galactic map and marks the actual target of the offered mission. After accepting the mission, right-clicking (RMB) it in the info panel shows the target on the map. The marker is animated; a separate button on the galamap resets the marker.

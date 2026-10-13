@@ -1,0 +1,288 @@
+ML ^{
+    Galaxy ^{
+        Panel ^{
+            Panel ^{
+                Panel ^{
+                    OnMouseRightClick ~{
+                        00=ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Show'));
+                    }
+                }
+            }
+            Panel ^{
+                GraphButton ~{
+                }
+                GraphButton ~{
+                }
+                GraphButton ~{
+                }
+                GraphButton ~{
+                    Help=Help.FHDQuestClear
+                    ImageDown=GI,Bm.FHDQuestMarker.ClearD
+                    ImageNormal=GI,Bm.FHDQuestMarker.ClearN
+                    ImageNormalA=GI,Bm.FHDQuestMarker.ClearA
+                    OnPressCode ~{
+                        00=ShipDeleteCustomShipInfo(Player(),'FHDQuestMarkerState');InterfaceState('Galaxy','FHDQuestMarkV035',-1);InterfacePos('Galaxy','FHDQuestMarkV035',0,0,0);
+                        01=unknown clearRoute=ImportedFunction('FHDQuestNative','FHD_RouteClear');clearRoute();
+                        02=InterfaceState('Galaxy','FHDQuestRouteInfo',-1);InterfaceState('Galaxy','FHDQuestRouteDeadline',-1);
+                    }
+                }
+                Size=1200,966
+                FHDQuestRouteOverlay ^{
+                    Image ^{
+                        Active=True
+                        Image=GI,Bm.FHDQuestMarker.RouteFrame
+                        MouseBlocking=False
+                        MouseBlockingTest=False
+                        Name=FHDQuestRouteFrame
+                        Pos=221,907,0
+                        Size=758,47
+                    }
+                    Label ^{
+                        Active=False
+                        AlignX=Center
+                        AlignY=CenterEx
+                        Font=Font.2SmallBold
+                        Help=Help.FHDQuestRoute
+                        MouseBlocking=False
+                        MouseBlockingTest=False
+                        Name=FHDQuestRouteInfo
+                        Pos=310,923,-3
+                        Size=450,24
+                        TextColor=0,255,0
+                        WordWrap=True
+                    }
+                    Label ^{
+                        Active=False
+                        AlignX=Center
+                        AlignY=CenterEx
+                        Font=Font.2SmallBold
+                        Help=Help.FHDQuestDeadline
+                        MouseBlocking=False
+                        MouseBlockingTest=False
+                        Name=FHDQuestRouteDeadline
+                        Pos=770,923,-3
+                        Size=123,24
+                        TextColor=0,255,0
+                        WordWrap=False
+                    }
+                }
+                Panel ^{
+                    Panel ^{
+                    }
+                    Panel ^{
+                        Name=FHDQuestMarkerLayer
+                        Pos=0,0,0
+                        Size=1150,786
+                        MouseBlocking=False
+                        MouseBlockingTest=False
+                        GAI ^{
+                            Active=False
+                            Image=Bm.FHDQuestMarker.GNPoQ
+                            Frame=[50,0-19]
+                            Stop=False
+                            StopAfterOneCycle=False
+                            MouseBlocking=False
+                            MouseBlockingTest=False
+                            Name=FHDQuestMarkV035
+                            Pos=0,0,-10
+                            Size=50,50
+                        }
+                    }
+                }
+            }
+        }
+    }
+    Gov ^{
+        Panel ^{
+            Panel ^{
+                Panel ^{
+                    OnMouseRightClick ~{
+                        00=ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Show'));
+                    }
+                }
+            }
+            Panel ^{
+                QuestReturnControl ^{
+                    Panel ^{
+                        GraphButton ^{
+                            Active=False
+                            Kind=Normal
+                            KindHit=Rect
+                            MouseBlocking=False
+                            Name=FHDQuestReturnButton
+                            OnPressCode ~{
+                                00=ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Return'));
+                            }
+                            Pos=-1000,-1000,-9999
+                            Size=1,1
+                        }
+                        Name=QuestReturnControl
+                        Pos=-1000,-1000,-9999
+                        Size=1,1
+                    }
+                }
+            }
+        }
+    }
+    EquipmentShop ^{
+        Panel ^{
+            Panel ^{
+                Panel ^{
+                    OnMouseRightClick ~{
+                        00=ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Show'));
+                    }
+                }
+            }
+        }
+    }
+    GoodsShop ^{
+        Panel ^{
+            Panel ^{
+                Panel ^{
+                    OnMouseRightClick ~{
+                        00=ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Show'));
+                    }
+                }
+            }
+        }
+    }
+    Hangar ^{
+        Panel ^{
+            Panel ^{
+                Panel ^{
+                    OnMouseRightClick ~{
+                        00=ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Show'));
+                    }
+                }
+            }
+        }
+    }
+    Info ^{
+        Panel ^{
+            Panel ^{
+                Panel ^{
+                    OnMouseRightClick ~{
+                        00=ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Show'));
+                    }
+                }
+            }
+        }
+    }
+    Journal ^{
+        Panel ^{
+            Panel ^{
+                Panel ^{
+                    OnMouseRightClick ~{
+                        00=ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Show'));
+                    }
+                }
+            }
+        }
+    }
+    Planet ^{
+        Panel ^{
+            Panel ^{
+                Panel ^{
+                    OnMouseRightClick ~{
+                        00=ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Show'));
+                    }
+                }
+            }
+        }
+    }
+    PlanetNO ^{
+        Panel ^{
+            Panel ^{
+                Panel ^{
+                    OnMouseRightClick ~{
+                        00=ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Show'));
+                    }
+                }
+            }
+        }
+    }
+    Rating ^{
+        Panel ^{
+            Panel ^{
+                Panel ^{
+                    OnMouseRightClick ~{
+                        00=ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Show'));
+                    }
+                }
+            }
+        }
+    }
+    RuinsTalk ^{
+        Panel ^{
+            Panel ^{
+                Panel ^{
+                    OnMouseRightClick ~{
+                        00=ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Show'));
+                    }
+                }
+            }
+        }
+    }
+    Ship ^{
+        Panel ^{
+            Panel ^{
+                Panel ^{
+                    OnMouseRightClick ~{
+                        00=ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Show'));
+                    }
+                }
+            }
+        }
+    }
+    StarMap ^{
+        Panel ^{
+            Panel ^{
+                Panel ^{
+                    Panel ^{
+                        OnMouseRightClick ~{
+                            00=ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Show'));
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+Data ^{
+    ScriptLibs ^{
+        FHDQuestNative ~{
+            Path=Mods\FHD_MODS\FHD_QuestMarker_Preview\Native\FHDQuestMarker.dll
+            FHDQuest_Init=int,FHDQuest_Init
+            FHD_OfferKind=int,FHD_OfferKind
+            FHD_OfferTarget=int,FHD_OfferTarget
+            FHD_GetKind=int,FHD_GetKind
+            FHD_GetTarget=int,FHD_GetTarget
+            FHD_Reset=int,FHD_Reset
+            FHD_RoutePrepare=int,FHD_RoutePrepare
+            FHD_RouteText=str,FHD_RouteText
+            FHD_RouteDeadlineText=str,FHD_RouteDeadlineText
+            FHD_RouteTarget=int,FHD_RouteTarget
+            FHD_RouteDetails=str,FHD_RouteDetails
+            FHD_RouteDays=int,FHD_RouteDays
+            FHD_RouteJumps=int,FHD_RouteJumps
+            FHD_RouteRefuels=int,FHD_RouteRefuels
+            FHD_RouteCancel=int,FHD_RouteCancel
+            FHD_RouteClear=int,FHD_RouteClear
+        }
+        QuestMarker=FHDQuestNative
+    }
+}
+BV ^{
+    OnStart ^{
+        FHDQuestMarkerInit ~{
+            00=unknown init=ImportedFunction('FHDQuestNative','FHDQuest_Init');
+            01=init();
+        }
+    }
+    OnLoad ^{
+        FHDQuestMarkerInit ~{
+            00=unknown init=ImportedFunction('FHDQuestNative','FHDQuest_Init');
+            01=init();
+        }
+    }
+}

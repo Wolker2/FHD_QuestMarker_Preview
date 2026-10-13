@@ -1,0 +1,18 @@
+LIBRARY FHDQuestMarker.dll
+EXPORTS
+ FHDQuest_Init=FHDQuest_Init
+ FHD_GetKind=FHD_GetKind
+ FHD_GetTarget=FHD_GetTarget
+ FHD_Reset=FHD_Reset
+ FHD_OfferKind=FHD_OfferKind
+ FHD_OfferTarget=FHD_OfferTarget
+ FHD_RoutePrepare=FHD_RoutePrepare
+ FHD_RouteText=FHD_RouteText
+ FHD_RouteDeadlineText=FHD_RouteDeadlineText
+ FHD_RouteTarget=FHD_RouteTarget
+ FHD_RouteDetails=FHD_RouteDetails
+ FHD_RouteDays=FHD_RouteDays
+ FHD_RouteJumps=FHD_RouteJumps
+ FHD_RouteRefuels=FHD_RouteRefuels
+ FHD_RouteCancel=FHD_RouteCancel
+ FHD_RouteClear=FHD_RouteClear

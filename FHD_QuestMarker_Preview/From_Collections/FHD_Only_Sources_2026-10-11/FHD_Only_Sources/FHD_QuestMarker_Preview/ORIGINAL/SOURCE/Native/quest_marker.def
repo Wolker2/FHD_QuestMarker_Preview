@@ -1,0 +1,8 @@
+LIBRARY FHDQuestMarker.dll
+EXPORTS
+ FHDQuest_Init=FHDQuest_Init
+ FHD_GetKind=FHD_GetKind
+ FHD_GetTarget=FHD_GetTarget
+ FHD_Reset=FHD_Reset
+ FHD_OfferKind=FHD_OfferKind
+ FHD_OfferTarget=FHD_OfferTarget
