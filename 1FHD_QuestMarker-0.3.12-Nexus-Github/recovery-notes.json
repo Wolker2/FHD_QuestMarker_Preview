@@ -1,0 +1,41 @@
+{
+  "input_archive": {
+    "name": "FHD_QuestMarker_Preview_0.3.12(new exe).rar",
+    "actual_container": "ZIP",
+    "size": 2367541,
+    "sha256": "1bb50d7668cef516c328c2530a51c8fa5b534682355ada0e46d1cae44ca03378"
+  },
+  "target_exe": {
+    "sha256": "e43a4b15503c705eebe2d8ce5778c2a2fb090db515a3fd86d319e5c5aa692ebf",
+    "size": 4533760,
+    "usage": "Read-only compatibility checks; not distributed in either output archive"
+  },
+  "native_c_headers_def_unchanged_sha256": {
+    "quest_marker.c": "8ec975ec3f3e198e2475d76d952c30517c0b2909ce3896533b5eec148743aac5",
+    "quest_marker.def": "dc9af5e13f0c5673853d7cebc40b3f81d2bbba1c5f13ed6799c0bd22b689f548",
+    "quest_route.h": "04c49f9fa7f03709c237742e809668e174f3777558aaf8ec36a5d9cc8e2a4d8a",
+    "route_geometry.h": "53e8777109d0244646de31a77f99aca5e249413fb62a8977692f672fc6da7c29",
+    "route_guards.h": "084ae620202400713d09d239e92043c1396fdf3dc6a821e8484dc43a1cde3fe8",
+    "route_planner.h": "7eb2738900671bf0689fba08604b2659cf6ea8e5ce8323665a27d0edb5927611",
+    "route_text.h": "c482e8466c4d2635861010d7538d08a831ca871e22dacd3a6f0e9679292659f8",
+    "test_native.c": "503e0a2354c2ba3eb41eae2d94abc113808fb23d9ad5c1106c5c8c3073decd81",
+    "test_route.c": "20f60f46b77d9b1c86d4ad442da457f97456c47b8e86a71c9d20fe56ed5a37e3"
+  },
+  "configuration_recovery": {
+    "supplied_text_main_and_lang_leaf_values_equal_packed": true,
+    "text_builder_was_not_byte_identical": "Original block order/sort metadata is retained in lossless JSON instead",
+    "original_cache_text_was_byte_identical": true
+  },
+  "excluded_design_baseline": {
+    "path": "SOURCE/Assets/RouteFrame_original.gi",
+    "size": 1217526,
+    "sha256": "68adb05df957211a422b40004a382b231624f8b8f1751a104fcfa3b7a3707128",
+    "reason": "Not a runtime input; exact shipped RouteFrame.gi is fully represented in graphics.json"
+  },
+  "source_build_dependencies_removed": [
+    "rangers-utils runtime Python dependency",
+    "Pillow/numpy resizing dependency (no resize is performed)"
+  ],
+  "external_runtime_dependency": "UtilityFunctionsPack; not in upload",
+  "live_windows_game_executed": false
+}

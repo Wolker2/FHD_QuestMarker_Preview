@@ -1,0 +1,590 @@
+{
+  "format": "blockpar",
+  "seed": 1369621460,
+  "root": {
+    "entries": [
+      {
+        "kind": "block",
+        "name": "Help",
+        "value": {
+          "entries": [
+            {
+              "kind": "parameter",
+              "name": "FHDQuestClear",
+              "value": "Сбросить маршрут и метку задания с галактической карты",
+              "sort_meta": [
+                0,
+                1
+              ]
+            },
+            {
+              "kind": "parameter",
+              "name": "FHDQuestDeadline",
+              "value": "Количество дней на выполнение текущего предложения задания, с учётом выбранных условий",
+              "sort_meta": [
+                0,
+                1
+              ]
+            },
+            {
+              "kind": "parameter",
+              "name": "FHDQuestReturn",
+              "value": "Проложить маршрут к цели предложенного задания и оценить время пути",
+              "sort_meta": [
+                0,
+                1
+              ]
+            },
+            {
+              "kind": "parameter",
+              "name": "FHDQuestRoute",
+              "value": "Оценка по текущему оборудованию до посадки. Для дозаправок нужны деньги. Бои и ожидания не учтены.",
+              "sort_meta": [
+                0,
+                1
+              ]
+            }
+          ],
+          "sorted": true
+        },
+        "sort_meta": [
+          0,
+          1
+        ]
+      },
+      {
+        "kind": "block",
+        "name": "Script",
+        "value": {
+          "entries": [
+            {
+              "kind": "block",
+              "name": "QuestMarker",
+              "value": {
+                "entries": [
+                  {
+                    "kind": "block",
+                    "name": "Error",
+                    "value": {
+                      "entries": [
+                        {
+                          "kind": "parameter",
+                          "name": "00",
+                          "value": "str problem='Не удалось построить маршрут.';",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "01",
+                          "value": "if(status==-1)problem='Версия Rangers.exe не поддерживается или обработчик карты уже изменён другим модом.';",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "02",
+                          "value": "if(status==-2)problem='Нет подходящего двигателя, бака или скорости для перелёта.';",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "03",
+                          "value": "if(status==-3)problem='До цели нет маршрута с текущим оборудованием и доступными дозаправками.';",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "04",
+                          "value": "if(status==-4)problem='Цель задания сейчас недоступна. Запросите задание снова.';",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "05",
+                          "value": "if(status==-5)problem='Система цели ещё не открыта на галакарте.';",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "06",
+                          "value": "if(status==-6)problem='Маршрут превышает предел расчёта (4096 систем, 128 прыжков) или слишком сложен.';",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "07",
+                          "value": "if(status==-7)problem='Посадка на целевую планету запрещена.';",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "08",
+                          "value": "MessageBox(problem);",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        }
+                      ],
+                      "sorted": true
+                    },
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "block",
+                    "name": "Mark",
+                    "value": {
+                      "entries": [
+                        {
+                          "kind": "parameter",
+                          "name": "00",
+                          "value": "if(!star)exit;",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "01",
+                          "value": "float x=CoordX(star)*100;",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "02",
+                          "value": "x=x/150;",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "03",
+                          "value": "x=x*768;",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "04",
+                          "value": "x=x/100;",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "05",
+                          "value": "float y=CoordY(star)*527;",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "06",
+                          "value": "y=y/100;",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "07",
+                          "value": "InterfacePos('Galaxy','FHDQuestMarkV035',-25+x+CoordX(star)/5,-25+y,0);",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "08",
+                          "value": "InterfaceState('Galaxy','FHDQuestMarkV035',1);",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        }
+                      ],
+                      "sorted": true
+                    },
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "block",
+                    "name": "Place",
+                    "value": {
+                      "entries": [
+                        {
+                          "kind": "parameter",
+                          "name": "00",
+                          "value": "if(!star)exit;unknown clearRoute=ImportedFunction('FHDQuestNative','FHD_RouteClear');clearRoute();",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "01",
+                          "value": "ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Mark'),'star',star);",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "02",
+                          "value": "if(CurrentForm()!='Galaxy')RunChildForm('Galaxy',2);",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        }
+                      ],
+                      "sorted": true
+                    },
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "block",
+                    "name": "Return",
+                    "value": {
+                      "entries": [
+                        {
+                          "kind": "parameter",
+                          "name": "00",
+                          "value": "unknown prepare=ImportedFunction('FHDQuestNative','FHD_RoutePrepare');",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "01",
+                          "value": "unknown summary=ImportedFunction('FHDQuestNative','FHD_RouteText');",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "02",
+                          "value": "unknown cancel=ImportedFunction('FHDQuestNative','FHD_RouteCancel');",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "03",
+                          "value": "int status=prepare();",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "04",
+                          "value": "if(status)ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Error'),'status',status);",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "05",
+                          "value": "if(status)exit;",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "06",
+                          "value": "unknown routeTarget=ImportedFunction('FHDQuestNative','FHD_RouteTarget');dword star=routeTarget();ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Mark'),'star',star);",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "07",
+                          "value": "InterfaceText('Galaxy','FHDQuestRouteInfo',summary());",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "08",
+                          "value": "InterfaceState('Galaxy','FHDQuestRouteInfo',1);",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "09",
+                          "value": "unknown deadline=ImportedFunction('FHDQuestNative','FHD_RouteDeadlineText');InterfaceText('Galaxy','FHDQuestRouteDeadline',deadline());InterfaceState('Galaxy','FHDQuestRouteDeadline',1);",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "10",
+                          "value": "RunChildForm('Galaxy',2);",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "11",
+                          "value": "cancel();",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "12",
+                          "value": "InterfaceState('Galaxy','FHDQuestRouteInfo',-1);",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "13",
+                          "value": "InterfaceState('Galaxy','FHDQuestRouteDeadline',-1);InterfaceText('Galaxy','FHDQuestRouteDeadline','');InterfaceState('Galaxy','FHDQuestMarkV035',-1);",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "14",
+                          "value": "InterfaceText('Galaxy','FHDQuestRouteInfo','');",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        }
+                      ],
+                      "sorted": true
+                    },
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "block",
+                    "name": "Show",
+                    "value": {
+                      "entries": [
+                        {
+                          "kind": "parameter",
+                          "name": "00",
+                          "value": "unknown getKind=ImportedFunction('FHDQuestNative','FHD_GetKind');",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "01",
+                          "value": "unknown getTarget=ImportedFunction('FHDQuestNative','FHD_GetTarget');",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "02",
+                          "value": "unknown reset=ImportedFunction('FHDQuestNative','FHD_Reset');",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "03",
+                          "value": "int kind=getKind();",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "04",
+                          "value": "if(kind<0)exit;",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "05",
+                          "value": "dword target=getTarget();",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "06",
+                          "value": "reset();",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "07",
+                          "value": "if(!target)exit;",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "08",
+                          "value": "dword star=0;",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "09",
+                          "value": "if(kind==0 || kind==2)star=PlanetToStar(target);",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "10",
+                          "value": "if(kind==1 || kind==4)star=ShipStar(target);",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "11",
+                          "value": "if(kind==3)star=target;",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "12",
+                          "value": "ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Place'),'star',star);",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        }
+                      ],
+                      "sorted": true
+                    },
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  }
+                ],
+                "sorted": true
+              },
+              "sort_meta": [
+                0,
+                1
+              ]
+            }
+          ],
+          "sorted": true
+        },
+        "sort_meta": [
+          0,
+          1
+        ]
+      }
+    ],
+    "sorted": true
+  }
+}

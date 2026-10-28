@@ -1,0 +1,3664 @@
+{
+  "format": "blockpar",
+  "seed": -1316566416,
+  "root": {
+    "sorted": true,
+    "entries": [
+      {
+        "kind": "block",
+        "name": "ML",
+        "value": {
+          "sorted": true,
+          "entries": [
+            {
+              "kind": "block",
+              "name": "Galaxy",
+              "value": {
+                "entries": [
+                  {
+                    "kind": "parameter",
+                    "name": "Border",
+                    "value": "0,0,1024,768",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "block",
+                    "name": "Panel",
+                    "value": {
+                      "entries": [
+                        {
+                          "kind": "block",
+                          "name": "GraphBuf",
+                          "value": {
+                            "entries": [
+                              {
+                                "kind": "parameter",
+                                "name": "Name",
+                                "value": "BGBuf",
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              },
+                              {
+                                "kind": "parameter",
+                                "name": "Pos",
+                                "value": "0,0,9",
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              },
+                              {
+                                "kind": "parameter",
+                                "name": "Size",
+                                "value": "1024,768",
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              }
+                            ],
+                            "sorted": true
+                          },
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "MoveWorld",
+                          "value": "False",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "Name",
+                          "value": "MainPanel",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "block",
+                          "name": "Panel",
+                          "value": {
+                            "entries": [
+                              {
+                                "kind": "parameter",
+                                "name": "Name",
+                                "value": "PanelMain",
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              },
+                              {
+                                "kind": "block",
+                                "name": "Panel",
+                                "value": {
+                                  "entries": [
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Active",
+                                      "value": "False",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "MVUpdate",
+                                      "value": "True",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "MouseBlocking",
+                                      "value": "True",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Name",
+                                      "value": "PM_PanelMsg",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Pos",
+                                      "value": "111,741,2",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Size",
+                                      "value": "362,26",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    }
+                                  ],
+                                  "sorted": true
+                                },
+                                "sort_meta": [
+                                  0,
+                                  2
+                                ]
+                              },
+                              {
+                                "kind": "block",
+                                "name": "Panel",
+                                "value": {
+                                  "entries": [
+                                    {
+                                      "kind": "block",
+                                      "name": "GraphButton",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Help",
+                                            "value": "Help.ButShip",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "ImageDisable",
+                                            "value": "GI,Bm.PanelMain2.2ShipH",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "ImageDown",
+                                            "value": "GI,Bm.PanelMain2.2ShipD",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "ImageNormal",
+                                            "value": "GI,Bm.PanelMain2.2ShipN",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "ImageNormalA",
+                                            "value": "GI,Bm.PanelMain2.2ShipA",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Kind",
+                                            "value": "Disable",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "KindHit",
+                                            "value": "Graph",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Name",
+                                            "value": "PM_Ship",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Pos",
+                                            "value": "755,9,8",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Size",
+                                            "value": "46,33",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Style",
+                                            "value": "Style.GB.SoundNormal",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ],
+                                        "sorted": true
+                                      },
+                                      "sort_meta": [
+                                        0,
+                                        6
+                                      ]
+                                    },
+                                    {
+                                      "kind": "block",
+                                      "name": "GraphButton",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Help",
+                                            "value": "Help.ButGalaxy",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "ImageDisable",
+                                            "value": "GI,Bm.PanelMain2.2GalH",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "ImageDown",
+                                            "value": "GI,Bm.PanelMain2.2GalD",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "ImageNormal",
+                                            "value": "GI,Bm.PanelMain2.2GalN",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "ImageNormalA",
+                                            "value": "GI,Bm.PanelMain2.2GalA",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Kind",
+                                            "value": "Disable",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "KindHit",
+                                            "value": "Graph",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Name",
+                                            "value": "PM_Gal",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Pos",
+                                            "value": "843,9,8",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Size",
+                                            "value": "49,33",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Style",
+                                            "value": "Style.GB.SoundNormal",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ],
+                                        "sorted": true
+                                      },
+                                      "sort_meta": [
+                                        1,
+                                        0
+                                      ]
+                                    },
+                                    {
+                                      "kind": "block",
+                                      "name": "GraphButton",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Help",
+                                            "value": "Help.ButRating",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "ImageDisable",
+                                            "value": "GI,Bm.PanelMain2.2RatingH",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "ImageDown",
+                                            "value": "GI,Bm.PanelMain2.2RatingD",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "ImageNormal",
+                                            "value": "GI,Bm.PanelMain2.2RatingN",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "ImageNormalA",
+                                            "value": "GI,Bm.PanelMain2.2RatingA",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Kind",
+                                            "value": "Disable",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "KindHit",
+                                            "value": "Graph",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Name",
+                                            "value": "PM_Quest",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Pos",
+                                            "value": "799,9,8",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Size",
+                                            "value": "47,33",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Style",
+                                            "value": "Style.GB.SoundNormal",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ],
+                                        "sorted": true
+                                      },
+                                      "sort_meta": [
+                                        2,
+                                        0
+                                      ]
+                                    },
+                                    {
+                                      "kind": "block",
+                                      "name": "GraphButton",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Auto",
+                                            "value": "Pos,Size",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Help",
+                                            "value": "Help.ButTurn",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "ImageDisable",
+                                            "value": "GI,Bm.PanelMain2.2TurnD",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "ImageDown",
+                                            "value": "GI,Bm.PanelMain2.2TurnD",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "ImageNormal",
+                                            "value": "GI,Bm.PanelMain2.2TurnN",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "ImageNormalA",
+                                            "value": "GI,Bm.PanelMain2.2TurnA",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Kind",
+                                            "value": "Disable",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "KindHit",
+                                            "value": "Rect",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Name",
+                                            "value": "PM_EndTurn",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "PosZ",
+                                            "value": "8",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Style",
+                                            "value": "Style.GB.SoundNormal",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ],
+                                        "sorted": true
+                                      },
+                                      "sort_meta": [
+                                        3,
+                                        0
+                                      ]
+                                    },
+                                    {
+                                      "kind": "block",
+                                      "name": "GraphButton",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Active",
+                                            "value": "True",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Auto",
+                                            "value": "Pos,Size",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Help",
+                                            "value": "Help.ButBreakMove",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "ImageDisable",
+                                            "value": "GI,Bm.PanelMain2.2StopD",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "ImageDown",
+                                            "value": "GI,Bm.PanelMain2.2StopD",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "ImageNormal",
+                                            "value": "GI,Bm.PanelMain2.2StopN",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "ImageNormalA",
+                                            "value": "GI,Bm.PanelMain2.2StopA",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Kind",
+                                            "value": "Disable",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "KindHit",
+                                            "value": "Rect",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Name",
+                                            "value": "PM_Break",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "PosZ",
+                                            "value": "8",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Style",
+                                            "value": "Style.GB.SoundNormal",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ],
+                                        "sorted": true
+                                      },
+                                      "sort_meta": [
+                                        4,
+                                        0
+                                      ]
+                                    },
+                                    {
+                                      "kind": "block",
+                                      "name": "GraphButton",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Auto",
+                                            "value": "Pos,Size",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Help",
+                                            "value": "Help.ButLogo",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "ImageDisable",
+                                            "value": "GI,Bm.PanelMain2.2MenuN",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "ImageDown",
+                                            "value": "GI,Bm.PanelMain2.2MenuD",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "ImageNormal",
+                                            "value": "GI,Bm.PanelMain2.2MenuN",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "ImageNormalA",
+                                            "value": "GI,Bm.PanelMain2.2MenuA",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Kind",
+                                            "value": "Disable",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "KindHit",
+                                            "value": "Graph",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Name",
+                                            "value": "PM_Logo",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "PosZ",
+                                            "value": "8",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Style",
+                                            "value": "Style.GB.SoundNormal",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ],
+                                        "sorted": true
+                                      },
+                                      "sort_meta": [
+                                        5,
+                                        0
+                                      ]
+                                    },
+                                    {
+                                      "kind": "block",
+                                      "name": "Image",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Auto",
+                                            "value": "Pos,Size",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Image",
+                                            "value": "GI,Bm.PanelMain2.2BG",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Name",
+                                            "value": "PM_ImageBG",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "PosZ",
+                                            "value": "9",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ],
+                                        "sorted": true
+                                      },
+                                      "sort_meta": [
+                                        0,
+                                        3
+                                      ]
+                                    },
+                                    {
+                                      "kind": "block",
+                                      "name": "Image",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Image",
+                                            "value": "GI,Bm.PanelMain2.2WarningSpace",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Name",
+                                            "value": "PM_WarningSpace",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Pos",
+                                            "value": "498,53,8",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Size",
+                                            "value": "89,24",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ],
+                                        "sorted": true
+                                      },
+                                      "sort_meta": [
+                                        1,
+                                        0
+                                      ]
+                                    },
+                                    {
+                                      "kind": "block",
+                                      "name": "Image",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Image",
+                                            "value": "GI,Bm.PanelMain2.2WarningMoney",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Name",
+                                            "value": "PM_WarningMoney",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Pos",
+                                            "value": "622,53,8",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Size",
+                                            "value": "98,24",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ],
+                                        "sorted": true
+                                      },
+                                      "sort_meta": [
+                                        2,
+                                        0
+                                      ]
+                                    },
+                                    {
+                                      "kind": "block",
+                                      "name": "Label",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "AlignX",
+                                            "value": "Center",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "AlignY",
+                                            "value": "CenterEx",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Font",
+                                            "value": "Font.2SmallBold",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Help",
+                                            "value": "Help.LabelMoney",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Name",
+                                            "value": "PM_Money",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Pos",
+                                            "value": "624,55,7",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Size",
+                                            "value": "95,22",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "TextColor",
+                                            "value": "200,240,255",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ],
+                                        "sorted": true
+                                      },
+                                      "sort_meta": [
+                                        0,
+                                        3
+                                      ]
+                                    },
+                                    {
+                                      "kind": "block",
+                                      "name": "Label",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "AlignX",
+                                            "value": "Center",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "AlignY",
+                                            "value": "CenterEx",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Font",
+                                            "value": "Font.2SmallBold",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Help",
+                                            "value": "Help.LabelFreeSpace",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Name",
+                                            "value": "PM_FreeSpace",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Pos",
+                                            "value": "507,55,7",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Size",
+                                            "value": "70,22",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "TextColor",
+                                            "value": "200,240,255",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ],
+                                        "sorted": true
+                                      },
+                                      "sort_meta": [
+                                        1,
+                                        0
+                                      ]
+                                    },
+                                    {
+                                      "kind": "block",
+                                      "name": "Label",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Active",
+                                            "value": "False",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "AlignX",
+                                            "value": "Center",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "AlignY",
+                                            "value": "CenterEx",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Font",
+                                            "value": "Font.2SmallBold",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Name",
+                                            "value": "PM_Help",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Pos",
+                                            "value": "100,55,8",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Size",
+                                            "value": "360,22",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "TextColor",
+                                            "value": "200,240,255",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ],
+                                        "sorted": true
+                                      },
+                                      "sort_meta": [
+                                        2,
+                                        0
+                                      ]
+                                    },
+                                    {
+                                      "kind": "block",
+                                      "name": "Panel",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "block",
+                                            "name": "Image",
+                                            "value": {
+                                              "entries": [
+                                                {
+                                                  "kind": "parameter",
+                                                  "name": "Image",
+                                                  "value": "GI,Bm.PanelMain2.2DateNext",
+                                                  "sort_meta": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "parameter",
+                                                  "name": "Name",
+                                                  "value": "PM_DateNextImage",
+                                                  "sort_meta": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "parameter",
+                                                  "name": "Pos",
+                                                  "value": "0,5,8",
+                                                  "sort_meta": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "parameter",
+                                                  "name": "Size",
+                                                  "value": "7,17",
+                                                  "sort_meta": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                }
+                                              ],
+                                              "sorted": true
+                                            },
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "block",
+                                            "name": "Label",
+                                            "value": {
+                                              "entries": [
+                                                {
+                                                  "kind": "parameter",
+                                                  "name": "AlignX",
+                                                  "value": "Center",
+                                                  "sort_meta": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "parameter",
+                                                  "name": "AlignY",
+                                                  "value": "CenterEx",
+                                                  "sort_meta": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "parameter",
+                                                  "name": "Font",
+                                                  "value": "Font.2SmallBold",
+                                                  "sort_meta": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "parameter",
+                                                  "name": "Help",
+                                                  "value": "Help.LabelDate",
+                                                  "sort_meta": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "parameter",
+                                                  "name": "Name",
+                                                  "value": "PM_Date",
+                                                  "sort_meta": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "parameter",
+                                                  "name": "Pos",
+                                                  "value": "0,0,8",
+                                                  "sort_meta": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "parameter",
+                                                  "name": "Size",
+                                                  "value": "130,22",
+                                                  "sort_meta": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "parameter",
+                                                  "name": "TextColor",
+                                                  "value": "200,240,255",
+                                                  "sort_meta": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                }
+                                              ],
+                                              "sorted": true
+                                            },
+                                            "sort_meta": [
+                                              0,
+                                              2
+                                            ]
+                                          },
+                                          {
+                                            "kind": "block",
+                                            "name": "Label",
+                                            "value": {
+                                              "entries": [
+                                                {
+                                                  "kind": "parameter",
+                                                  "name": "AlignX",
+                                                  "value": "Center",
+                                                  "sort_meta": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "parameter",
+                                                  "name": "AlignY",
+                                                  "value": "CenterEx",
+                                                  "sort_meta": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "parameter",
+                                                  "name": "Font",
+                                                  "value": "Font.2SmallBold",
+                                                  "sort_meta": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "parameter",
+                                                  "name": "Help",
+                                                  "value": "Help.LabelDate",
+                                                  "sort_meta": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "parameter",
+                                                  "name": "Name",
+                                                  "value": "PM_DateNew",
+                                                  "sort_meta": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "parameter",
+                                                  "name": "Pos",
+                                                  "value": "0,0,8",
+                                                  "sort_meta": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "parameter",
+                                                  "name": "Size",
+                                                  "value": "130,22",
+                                                  "sort_meta": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "parameter",
+                                                  "name": "TextColor",
+                                                  "value": "200,240,255",
+                                                  "sort_meta": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                }
+                                              ],
+                                              "sorted": true
+                                            },
+                                            "sort_meta": [
+                                              1,
+                                              0
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Name",
+                                            "value": "PM_PanelDate",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Pos",
+                                            "value": "738,55,7",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Size",
+                                            "value": "130,22",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ],
+                                        "sorted": true
+                                      },
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Pos",
+                                      "value": "0,686,3",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Size",
+                                      "value": "1024,82",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    }
+                                  ],
+                                  "sorted": true
+                                },
+                                "sort_meta": [
+                                  1,
+                                  0
+                                ]
+                              },
+                              {
+                                "kind": "parameter",
+                                "name": "Pos",
+                                "value": "0,0,-100",
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              },
+                              {
+                                "kind": "parameter",
+                                "name": "Size",
+                                "value": "1024,768",
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              },
+                              {
+                                "kind": "block",
+                                "name": "Window",
+                                "value": {
+                                  "entries": [
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Active",
+                                      "value": "False",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "block",
+                                      "name": "Label",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Active",
+                                            "value": "True",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "AlignX",
+                                            "value": "Auto",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "AlignY",
+                                            "value": "Auto",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Font",
+                                            "value": "Font.2Normal",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Name",
+                                            "value": "PM_LabelMsg",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Pos",
+                                            "value": "0,0,1",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Size",
+                                            "value": "500,20",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "TextColor",
+                                            "value": "255,255,230",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "WordWrap",
+                                            "value": "True",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ],
+                                        "sorted": true
+                                      },
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Name",
+                                      "value": "PM_WinMsg",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Pos",
+                                      "value": "57,725,1",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Size",
+                                      "value": "500,20",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Style",
+                                      "value": "Style.Window.2Tips",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    }
+                                  ],
+                                  "sorted": true
+                                },
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              }
+                            ],
+                            "sorted": true
+                          },
+                          "sort_meta": [
+                            0,
+                            2
+                          ]
+                        },
+                        {
+                          "kind": "block",
+                          "name": "Panel",
+                          "value": {
+                            "entries": [
+                              {
+                                "kind": "block",
+                                "name": "GAI",
+                                "value": {
+                                  "entries": [
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Active",
+                                      "value": "True",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Frame",
+                                      "value": "[50,0-6]",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Image",
+                                      "value": "Bm.FormGalaxy2.2Anim",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Name",
+                                      "value": "Anim",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Pos",
+                                      "value": "182,565,-3",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Size",
+                                      "value": "96,37",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    }
+                                  ],
+                                  "sorted": true
+                                },
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              },
+                              {
+                                "kind": "block",
+                                "name": "GraphButton",
+                                "value": {
+                                  "entries": [
+                                    {
+                                      "kind": "parameter",
+                                      "name": "ImageDisable",
+                                      "value": "GI,Bm.FormGalaxy2.2OkH",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "ImageDown",
+                                      "value": "GI,Bm.FormGalaxy2.2OkD",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "ImageNormal",
+                                      "value": "GI,Bm.FormGalaxy2.2OkN",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "ImageNormalA",
+                                      "value": "GI,Bm.FormGalaxy2.2OkA",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Kind",
+                                      "value": "Disable",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "KindHit",
+                                      "value": "Rect",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "MouseBlocking",
+                                      "value": "True",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Name",
+                                      "value": "ButJump",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Pos",
+                                      "value": "528,577,-2",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Size",
+                                      "value": "119,42",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Style",
+                                      "value": "Style.GB.SoundNormal",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    }
+                                  ],
+                                  "sorted": true
+                                },
+                                "sort_meta": [
+                                  0,
+                                  5
+                                ]
+                              },
+                              {
+                                "kind": "block",
+                                "name": "GraphButton",
+                                "value": {
+                                  "entries": [
+                                    {
+                                      "kind": "parameter",
+                                      "name": "ImageDown",
+                                      "value": "GI,Bm.FormGalaxy2.2CancelD",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "ImageNormal",
+                                      "value": "GI,Bm.FormGalaxy2.2CancelN",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "ImageNormalA",
+                                      "value": "GI,Bm.FormGalaxy2.2CancelA",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Kind",
+                                      "value": "Normal",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "KindHit",
+                                      "value": "Rect",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "MouseBlocking",
+                                      "value": "True",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Name",
+                                      "value": "ButExit",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Pos",
+                                      "value": "680,560,-2",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Size",
+                                      "value": "79,39",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Style",
+                                      "value": "Style.GB.SoundNormal",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    }
+                                  ],
+                                  "sorted": true
+                                },
+                                "sort_meta": [
+                                  1,
+                                  0
+                                ]
+                              },
+                              {
+                                "kind": "block",
+                                "name": "GraphButton",
+                                "value": {
+                                  "entries": [
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Help",
+                                      "value": "FormGalaxy.HelpButCreate",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "ImageDown",
+                                      "value": "GI,Bm.FormGalaxy2.CreateD",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "ImageNormal",
+                                      "value": "GI,Bm.FormGalaxy2.CreateN",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "ImageNormalA",
+                                      "value": "GI,Bm.FormGalaxy2.CreateA",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Kind",
+                                      "value": "Normal",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "KindHit",
+                                      "value": "Rect",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "MouseBlocking",
+                                      "value": "True",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Name",
+                                      "value": "ButCreate",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Pos",
+                                      "value": "282,567,-2",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Size",
+                                      "value": "37,37",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Style",
+                                      "value": "Style.GB.SoundNormal",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    }
+                                  ],
+                                  "sorted": true
+                                },
+                                "sort_meta": [
+                                  2,
+                                  0
+                                ]
+                              },
+                              {
+                                "kind": "block",
+                                "name": "GraphButton",
+                                "value": {
+                                  "entries": [
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Help",
+                                      "value": "FormGalaxy.HelpButDel",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "ImageDown",
+                                      "value": "GI,Bm.FormGalaxy2.DelD",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "ImageNormal",
+                                      "value": "GI,Bm.FormGalaxy2.DelN",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "ImageNormalA",
+                                      "value": "GI,Bm.FormGalaxy2.DelA",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Kind",
+                                      "value": "Normal",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "KindHit",
+                                      "value": "Rect",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "MouseBlocking",
+                                      "value": "True",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Name",
+                                      "value": "ButDel",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Pos",
+                                      "value": "369,567,-2",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Size",
+                                      "value": "37,37",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Style",
+                                      "value": "Style.GB.SoundNormal",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    }
+                                  ],
+                                  "sorted": true
+                                },
+                                "sort_meta": [
+                                  3,
+                                  0
+                                ]
+                              },
+                              {
+                                "kind": "block",
+                                "name": "GraphButton",
+                                "value": {
+                                  "entries": [
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Help",
+                                      "value": "FormGalaxy.HelpButUndo",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "ImageDown",
+                                      "value": "GI,Bm.FormGalaxy2.UndoD",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "ImageNormal",
+                                      "value": "GI,Bm.FormGalaxy2.UndoN",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "ImageNormalA",
+                                      "value": "GI,Bm.FormGalaxy2.UndoA",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Kind",
+                                      "value": "Normal",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "KindHit",
+                                      "value": "Rect",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "MouseBlocking",
+                                      "value": "True",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Name",
+                                      "value": "ButUndo",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Pos",
+                                      "value": "324,567,-2",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Size",
+                                      "value": "37,37",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Style",
+                                      "value": "Style.GB.SoundNormal",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    }
+                                  ],
+                                  "sorted": true
+                                },
+                                "sort_meta": [
+                                  4,
+                                  0
+                                ]
+                              },
+                              {
+                                "kind": "block",
+                                "name": "Image",
+                                "value": {
+                                  "entries": [
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Image",
+                                      "value": "GI,Bm.FormGalaxy2.2Panel",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Name",
+                                      "value": "ImagePanel",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Pos",
+                                      "value": "0,0,-1",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Size",
+                                      "value": "810,640",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    }
+                                  ],
+                                  "sorted": true
+                                },
+                                "sort_meta": [
+                                  0,
+                                  4
+                                ]
+                              },
+                              {
+                                "kind": "block",
+                                "name": "Image",
+                                "value": {
+                                  "entries": [
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Image",
+                                      "value": "GI,Bm.FormGalaxy2.2Light1",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Name",
+                                      "value": "Light1",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Pos",
+                                      "value": "158,569,-2",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Size",
+                                      "value": "17,18",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    }
+                                  ],
+                                  "sorted": true
+                                },
+                                "sort_meta": [
+                                  1,
+                                  0
+                                ]
+                              },
+                              {
+                                "kind": "block",
+                                "name": "Image",
+                                "value": {
+                                  "entries": [
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Image",
+                                      "value": "GI,Bm.FormGalaxy2.2Light2",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Name",
+                                      "value": "Light2",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Pos",
+                                      "value": "161,582,-2",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Size",
+                                      "value": "17,18",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    }
+                                  ],
+                                  "sorted": true
+                                },
+                                "sort_meta": [
+                                  2,
+                                  0
+                                ]
+                              },
+                              {
+                                "kind": "block",
+                                "name": "Image",
+                                "value": {
+                                  "entries": [
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Image",
+                                      "value": "GI,Bm.FormGalaxy2.2Light3",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Name",
+                                      "value": "Light3",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Pos",
+                                      "value": "167,595,-2",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Size",
+                                      "value": "15,10",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    }
+                                  ],
+                                  "sorted": true
+                                },
+                                "sort_meta": [
+                                  3,
+                                  0
+                                ]
+                              },
+                              {
+                                "kind": "block",
+                                "name": "Label",
+                                "value": {
+                                  "entries": [
+                                    {
+                                      "kind": "parameter",
+                                      "name": "AlignX",
+                                      "value": "Center",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "AlignY",
+                                      "value": "CenterEx",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Font",
+                                      "value": "Font.2Ranger",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Name",
+                                      "value": "LabelJumpTo",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Pos",
+                                      "value": "182,563,-2",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Size",
+                                      "value": "96,37",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "TextColor",
+                                      "value": "55,230,255",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "WordWrap",
+                                      "value": "True",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    }
+                                  ],
+                                  "sorted": true
+                                },
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              },
+                              {
+                                "kind": "block",
+                                "name": "Panel",
+                                "value": {
+                                  "entries": [
+                                    {
+                                      "kind": "block",
+                                      "name": "Circle",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Kind",
+                                            "value": "MulLight",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Name",
+                                            "value": "JampMaxShr",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Pos",
+                                            "value": "0,0,12",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "ShrLightInner",
+                                            "value": "255",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "ShrLightOuter",
+                                            "value": "200",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Size",
+                                            "value": "768,527",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ],
+                                        "sorted": true
+                                      },
+                                      "sort_meta": [
+                                        0,
+                                        3
+                                      ]
+                                    },
+                                    {
+                                      "kind": "block",
+                                      "name": "Circle",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Color",
+                                            "value": "0,255,0",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Kind",
+                                            "value": "Circle",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Name",
+                                            "value": "JampMaxColor",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Pos",
+                                            "value": "0,0,11",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Size",
+                                            "value": "768,527",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ],
+                                        "sorted": true
+                                      },
+                                      "sort_meta": [
+                                        1,
+                                        0
+                                      ]
+                                    },
+                                    {
+                                      "kind": "block",
+                                      "name": "Circle",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Color",
+                                            "value": "255,255,0",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Kind",
+                                            "value": "Circle",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Name",
+                                            "value": "RadarDetect",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Pos",
+                                            "value": "0,0,11",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Size",
+                                            "value": "768,527",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ],
+                                        "sorted": true
+                                      },
+                                      "sort_meta": [
+                                        2,
+                                        0
+                                      ]
+                                    },
+                                    {
+                                      "kind": "block",
+                                      "name": "GAI",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Auto",
+                                            "value": "Size",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "FrameLoad",
+                                            "value": "0",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Image",
+                                            "value": "Bm.PI.GNPo",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Name",
+                                            "value": "PathCurPos",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Pos",
+                                            "value": "0,0,4,w",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ],
+                                        "sorted": true
+                                      },
+                                      "sort_meta": [
+                                        0,
+                                        2
+                                      ]
+                                    },
+                                    {
+                                      "kind": "block",
+                                      "name": "GAI",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Active",
+                                            "value": "False",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Auto",
+                                            "value": "Size",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "FrameLoad",
+                                            "value": "0",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Image",
+                                            "value": "Bm.PI.GNPi",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Name",
+                                            "value": "PathDesPos",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Pos",
+                                            "value": "0,0,4,w",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ],
+                                        "sorted": true
+                                      },
+                                      "sort_meta": [
+                                        1,
+                                        0
+                                      ]
+                                    },
+                                    {
+                                      "kind": "block",
+                                      "name": "GraphBuf",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Name",
+                                            "value": "HideBuf",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Pos",
+                                            "value": "0,0,10",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Size",
+                                            "value": "768,527",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ],
+                                        "sorted": true
+                                      },
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "block",
+                                      "name": "Image",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Image",
+                                            "value": "GI,Bm.FormGalaxy2.2bg",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "KindX",
+                                            "value": "Center",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "KindY",
+                                            "value": "Center",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Pos",
+                                            "value": "0,0,1000",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Size",
+                                            "value": "768,527",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ],
+                                        "sorted": true
+                                      },
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "block",
+                                      "name": "Label",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "AlignX",
+                                            "value": "Left",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "AlignY",
+                                            "value": "Center",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Name",
+                                            "value": "Distance",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Pos",
+                                            "value": "400,748,3",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Size",
+                                            "value": "100,20",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Style",
+                                            "value": "Style.Label.2Normal",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ],
+                                        "sorted": true
+                                      },
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "block",
+                                      "name": "Panel",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Name",
+                                            "value": "Map",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Pos",
+                                            "value": "0,0,5",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Size",
+                                            "value": "768,527",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ],
+                                        "sorted": true
+                                      },
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Pos",
+                                      "value": "21,33",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Size",
+                                      "value": "768,527",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    }
+                                  ],
+                                  "sorted": true
+                                },
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              },
+                              {
+                                "kind": "parameter",
+                                "name": "Pos",
+                                "value": "107,22,-2",
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              },
+                              {
+                                "kind": "parameter",
+                                "name": "Size",
+                                "value": "810,640",
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              }
+                            ],
+                            "sorted": true
+                          },
+                          "sort_meta": [
+                            1,
+                            0
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "Pos",
+                          "value": "0,0",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "Size",
+                          "value": "1024,768",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "block",
+                          "name": "Window",
+                          "value": {
+                            "entries": [
+                              {
+                                "kind": "parameter",
+                                "name": "Active",
+                                "value": "False",
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              },
+                              {
+                                "kind": "block",
+                                "name": "Label",
+                                "value": {
+                                  "entries": [
+                                    {
+                                      "kind": "parameter",
+                                      "name": "AlignX",
+                                      "value": "Auto",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "AlignY",
+                                      "value": "Auto",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Font",
+                                      "value": "Font.2Normal",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Name",
+                                      "value": "InfoText",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Pos",
+                                      "value": "10,10,-1",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Size",
+                                      "value": "180,180",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Text",
+                                      "value": "Test",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "WordWrap",
+                                      "value": "False",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    }
+                                  ],
+                                  "sorted": true
+                                },
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              },
+                              {
+                                "kind": "parameter",
+                                "name": "MVUpdate",
+                                "value": "True",
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              },
+                              {
+                                "kind": "parameter",
+                                "name": "MouseBlocking",
+                                "value": "False",
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              },
+                              {
+                                "kind": "parameter",
+                                "name": "Name",
+                                "value": "Info",
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              },
+                              {
+                                "kind": "parameter",
+                                "name": "Pos",
+                                "value": "10,10,-3",
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              },
+                              {
+                                "kind": "parameter",
+                                "name": "Size",
+                                "value": "200,200",
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              },
+                              {
+                                "kind": "parameter",
+                                "name": "Style",
+                                "value": "Style.Window.2Normal",
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              }
+                            ],
+                            "sorted": true
+                          },
+                          "sort_meta": [
+                            0,
+                            2
+                          ]
+                        },
+                        {
+                          "kind": "block",
+                          "name": "Window",
+                          "value": {
+                            "entries": [
+                              {
+                                "kind": "parameter",
+                                "name": "Active",
+                                "value": "False",
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              },
+                              {
+                                "kind": "block",
+                                "name": "GraphBuf",
+                                "value": {
+                                  "entries": [
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Name",
+                                      "value": "InfoStarImage",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Pos",
+                                      "value": "12,10,8",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Size",
+                                      "value": "43,43",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    }
+                                  ],
+                                  "sorted": true
+                                },
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              },
+                              {
+                                "kind": "block",
+                                "name": "Label",
+                                "value": {
+                                  "entries": [
+                                    {
+                                      "kind": "parameter",
+                                      "name": "AlignX",
+                                      "value": "Center",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "AlignY",
+                                      "value": "CenterEx",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Font",
+                                      "value": "Font.2SmallBold",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Name",
+                                      "value": "InfoStarName",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Pos",
+                                      "value": "60,10,8",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Size",
+                                      "value": "165,43",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "TextColor",
+                                      "value": "57,239,255",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "WordWrap",
+                                      "value": "True",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    }
+                                  ],
+                                  "sorted": true
+                                },
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              },
+                              {
+                                "kind": "parameter",
+                                "name": "MVUpdate",
+                                "value": "True",
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              },
+                              {
+                                "kind": "parameter",
+                                "name": "MouseBlocking",
+                                "value": "False",
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              },
+                              {
+                                "kind": "parameter",
+                                "name": "Name",
+                                "value": "InfoStar",
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              },
+                              {
+                                "kind": "block",
+                                "name": "Panel",
+                                "value": {
+                                  "entries": [
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Name",
+                                      "value": "InfoStarPanel",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Pos",
+                                      "value": "0,65,8",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Size",
+                                      "value": "260,10",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    }
+                                  ],
+                                  "sorted": true
+                                },
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              },
+                              {
+                                "kind": "parameter",
+                                "name": "Pos",
+                                "value": "10,10,-3",
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              },
+                              {
+                                "kind": "parameter",
+                                "name": "Size",
+                                "value": "260,174",
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              },
+                              {
+                                "kind": "parameter",
+                                "name": "Style",
+                                "value": "Style.Window.2Simple",
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              }
+                            ],
+                            "sorted": true
+                          },
+                          "sort_meta": [
+                            1,
+                            0
+                          ]
+                        }
+                      ],
+                      "sorted": true
+                    },
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "block",
+                    "name": "Sound",
+                    "value": {
+                      "entries": [
+                        {
+                          "kind": "parameter",
+                          "name": "Close",
+                          "value": "Sound.FormShipClose",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "Open",
+                          "value": "Sound.FormShipOpen",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        }
+                      ],
+                      "sorted": true
+                    },
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  }
+                ],
+                "sorted": true
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

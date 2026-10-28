@@ -1,0 +1,1437 @@
+{
+  "format": "blockpar",
+  "seed": 1369621460,
+  "root": {
+    "sorted": true,
+    "entries": [
+      {
+        "kind": "block",
+        "name": "ML",
+        "value": {
+          "sorted": true,
+          "entries": [
+            {
+              "kind": "block",
+              "name": "Galaxy",
+              "value": {
+                "entries": [
+                  {
+                    "kind": "block",
+                    "name": "Panel",
+                    "value": {
+                      "entries": [
+                        {
+                          "kind": "block",
+                          "name": "FHDTradeMarkerState",
+                          "value": {
+                            "entries": [
+                              {
+                                "kind": "block",
+                                "name": "Panel",
+                                "value": {
+                                  "entries": [
+                                    {
+                                      "kind": "block",
+                                      "name": "Label",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Active",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "AlignX",
+                                            "value": "Left"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "AlignY",
+                                            "value": "CenterEx"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Font",
+                                            "value": "Font.2Small"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Name",
+                                            "value": "MGFMarkerNext"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Pos",
+                                            "value": "0,0"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Size",
+                                            "value": "1,1"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Text",
+                                            "value": "0"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "TextColor",
+                                            "value": "255,255,230"
+                                          }
+                                        ],
+                                        "sorted": false
+                                      },
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Name",
+                                      "value": "FHDTradeMarkerState",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Pos",
+                                      "value": "0,0,-20",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Size",
+                                      "value": "1,1",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    }
+                                  ],
+                                  "sorted": true
+                                },
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              }
+                            ],
+                            "sorted": true
+                          },
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "block",
+                          "name": "Panel",
+                          "value": {
+                            "entries": [],
+                            "sorted": false
+                          },
+                          "sort_meta": [
+                            0,
+                            2
+                          ]
+                        },
+                        {
+                          "kind": "block",
+                          "name": "Panel",
+                          "value": {
+                            "entries": [
+                              {
+                                "kind": "block",
+                                "name": "MarketGoodsFinderClearPanel",
+                                "value": {
+                                  "entries": [
+                                    {
+                                      "kind": "block",
+                                      "name": "Panel",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "block",
+                                            "name": "GraphButton",
+                                            "value": {
+                                              "entries": [
+                                                {
+                                                  "kind": "parameter",
+                                                  "name": "Caption",
+                                                  "value": "",
+                                                  "sort_meta": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "parameter",
+                                                  "name": "CaptionAlignX",
+                                                  "value": "Center",
+                                                  "sort_meta": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "parameter",
+                                                  "name": "CaptionAlignY",
+                                                  "value": "CenterEx",
+                                                  "sort_meta": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "parameter",
+                                                  "name": "CaptionColorDown",
+                                                  "value": "255,255,230",
+                                                  "sort_meta": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "parameter",
+                                                  "name": "CaptionColorDownA",
+                                                  "value": "255,255,230",
+                                                  "sort_meta": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "parameter",
+                                                  "name": "CaptionColorNormal",
+                                                  "value": "255,255,230",
+                                                  "sort_meta": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "parameter",
+                                                  "name": "CaptionColorNormalA",
+                                                  "value": "255,255,230",
+                                                  "sort_meta": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "parameter",
+                                                  "name": "Font",
+                                                  "value": "Font.2SmallBold",
+                                                  "sort_meta": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "parameter",
+                                                  "name": "Help",
+                                                  "value": "Help.MGFClearMarks",
+                                                  "sort_meta": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "parameter",
+                                                  "name": "ImageDown",
+                                                  "value": "GI,Bm.FHD_Trade.2CloseD",
+                                                  "sort_meta": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "parameter",
+                                                  "name": "ImageNormal",
+                                                  "value": "GI,Bm.FHD_Trade.2CloseN",
+                                                  "sort_meta": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "parameter",
+                                                  "name": "ImageNormalA",
+                                                  "value": "GI,Bm.FHD_Trade.2CloseA",
+                                                  "sort_meta": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "parameter",
+                                                  "name": "Kind",
+                                                  "value": "Normal",
+                                                  "sort_meta": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "parameter",
+                                                  "name": "KindHit",
+                                                  "value": "Rect",
+                                                  "sort_meta": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "parameter",
+                                                  "name": "MouseBlocking",
+                                                  "value": "True",
+                                                  "sort_meta": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "parameter",
+                                                  "name": "MouseBlockingTest",
+                                                  "value": "False",
+                                                  "sort_meta": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "parameter",
+                                                  "name": "Name",
+                                                  "value": "MarketGoodsFinderClearButton",
+                                                  "sort_meta": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "block",
+                                                  "name": "OnPressCode",
+                                                  "value": {
+                                                    "entries": [
+                                                      {
+                                                        "kind": "parameter",
+                                                        "name": "00",
+                                                        "value": "ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.MarketGoodsFinder.Markers.Clear'));"
+                                                      }
+                                                    ],
+                                                    "sorted": false
+                                                  },
+                                                  "sort_meta": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "parameter",
+                                                  "name": "Pos",
+                                                  "value": "0,0,-1",
+                                                  "sort_meta": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "parameter",
+                                                  "name": "Size",
+                                                  "value": "63,27",
+                                                  "sort_meta": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "parameter",
+                                                  "name": "Style",
+                                                  "value": "Style.GB.SoundNormal",
+                                                  "sort_meta": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                }
+                                              ],
+                                              "sorted": true
+                                            },
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Name",
+                                            "value": "MarketGoodsFinderClearPanel",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Pos",
+                                            "value": "670,8,-100",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Size",
+                                            "value": "63,27",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ],
+                                        "sorted": true
+                                      },
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    }
+                                  ],
+                                  "sorted": true
+                                },
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              },
+                              {
+                                "kind": "block",
+                                "name": "Panel",
+                                "value": {
+                                  "entries": [
+                                    {
+                                      "kind": "block",
+                                      "name": "Image",
+                                      "value": {
+                                        "entries": [],
+                                        "sorted": false
+                                      },
+                                      "sort_meta": [
+                                        0,
+                                        22
+                                      ]
+                                    },
+                                    {
+                                      "kind": "block",
+                                      "name": "Image",
+                                      "value": {
+                                        "entries": [],
+                                        "sorted": false
+                                      },
+                                      "sort_meta": [
+                                        1,
+                                        0
+                                      ]
+                                    },
+                                    {
+                                      "kind": "block",
+                                      "name": "Image",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Active",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Image",
+                                            "value": "GI,Bm.FHD_Trade.MarkerBuy"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "MouseBlocking",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "MouseBlockingTest",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Name",
+                                            "value": "MGFBuyMark0"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Pos",
+                                            "value": "0,0,-10"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Size",
+                                            "value": "81,80"
+                                          }
+                                        ],
+                                        "sorted": false
+                                      },
+                                      "sort_meta": [
+                                        2,
+                                        0
+                                      ]
+                                    },
+                                    {
+                                      "kind": "block",
+                                      "name": "Image",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Active",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Image",
+                                            "value": "GI,Bm.FHD_Trade.MarkerSell"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "MouseBlocking",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "MouseBlockingTest",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Name",
+                                            "value": "MGFSellMark0"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Pos",
+                                            "value": "0,0,-10"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Size",
+                                            "value": "80,81"
+                                          }
+                                        ],
+                                        "sorted": false
+                                      },
+                                      "sort_meta": [
+                                        3,
+                                        0
+                                      ]
+                                    },
+                                    {
+                                      "kind": "block",
+                                      "name": "Image",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Active",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Image",
+                                            "value": "GI,Bm.FHD_Trade.MarkerBuy"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "MouseBlocking",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "MouseBlockingTest",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Name",
+                                            "value": "MGFBuyMark1"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Pos",
+                                            "value": "0,0,-10"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Size",
+                                            "value": "81,80"
+                                          }
+                                        ],
+                                        "sorted": false
+                                      },
+                                      "sort_meta": [
+                                        4,
+                                        0
+                                      ]
+                                    },
+                                    {
+                                      "kind": "block",
+                                      "name": "Image",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Active",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Image",
+                                            "value": "GI,Bm.FHD_Trade.MarkerSell"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "MouseBlocking",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "MouseBlockingTest",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Name",
+                                            "value": "MGFSellMark1"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Pos",
+                                            "value": "0,0,-10"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Size",
+                                            "value": "80,81"
+                                          }
+                                        ],
+                                        "sorted": false
+                                      },
+                                      "sort_meta": [
+                                        5,
+                                        0
+                                      ]
+                                    },
+                                    {
+                                      "kind": "block",
+                                      "name": "Image",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Active",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Image",
+                                            "value": "GI,Bm.FHD_Trade.MarkerBuy"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "MouseBlocking",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "MouseBlockingTest",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Name",
+                                            "value": "MGFBuyMark2"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Pos",
+                                            "value": "0,0,-10"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Size",
+                                            "value": "81,80"
+                                          }
+                                        ],
+                                        "sorted": false
+                                      },
+                                      "sort_meta": [
+                                        6,
+                                        0
+                                      ]
+                                    },
+                                    {
+                                      "kind": "block",
+                                      "name": "Image",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Active",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Image",
+                                            "value": "GI,Bm.FHD_Trade.MarkerSell"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "MouseBlocking",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "MouseBlockingTest",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Name",
+                                            "value": "MGFSellMark2"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Pos",
+                                            "value": "0,0,-10"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Size",
+                                            "value": "80,81"
+                                          }
+                                        ],
+                                        "sorted": false
+                                      },
+                                      "sort_meta": [
+                                        7,
+                                        0
+                                      ]
+                                    },
+                                    {
+                                      "kind": "block",
+                                      "name": "Image",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Active",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Image",
+                                            "value": "GI,Bm.FHD_Trade.MarkerBuy"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "MouseBlocking",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "MouseBlockingTest",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Name",
+                                            "value": "MGFBuyMark3"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Pos",
+                                            "value": "0,0,-10"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Size",
+                                            "value": "81,80"
+                                          }
+                                        ],
+                                        "sorted": false
+                                      },
+                                      "sort_meta": [
+                                        8,
+                                        0
+                                      ]
+                                    },
+                                    {
+                                      "kind": "block",
+                                      "name": "Image",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Active",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Image",
+                                            "value": "GI,Bm.FHD_Trade.MarkerSell"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "MouseBlocking",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "MouseBlockingTest",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Name",
+                                            "value": "MGFSellMark3"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Pos",
+                                            "value": "0,0,-10"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Size",
+                                            "value": "80,81"
+                                          }
+                                        ],
+                                        "sorted": false
+                                      },
+                                      "sort_meta": [
+                                        9,
+                                        0
+                                      ]
+                                    },
+                                    {
+                                      "kind": "block",
+                                      "name": "Image",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Active",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Image",
+                                            "value": "GI,Bm.FHD_Trade.MarkerBuy"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "MouseBlocking",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "MouseBlockingTest",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Name",
+                                            "value": "MGFBuyMark4"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Pos",
+                                            "value": "0,0,-10"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Size",
+                                            "value": "81,80"
+                                          }
+                                        ],
+                                        "sorted": false
+                                      },
+                                      "sort_meta": [
+                                        10,
+                                        0
+                                      ]
+                                    },
+                                    {
+                                      "kind": "block",
+                                      "name": "Image",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Active",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Image",
+                                            "value": "GI,Bm.FHD_Trade.MarkerSell"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "MouseBlocking",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "MouseBlockingTest",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Name",
+                                            "value": "MGFSellMark4"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Pos",
+                                            "value": "0,0,-10"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Size",
+                                            "value": "80,81"
+                                          }
+                                        ],
+                                        "sorted": false
+                                      },
+                                      "sort_meta": [
+                                        11,
+                                        0
+                                      ]
+                                    },
+                                    {
+                                      "kind": "block",
+                                      "name": "Image",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Active",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Image",
+                                            "value": "GI,Bm.FHD_Trade.MarkerBuy"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "MouseBlocking",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "MouseBlockingTest",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Name",
+                                            "value": "MGFBuyMark5"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Pos",
+                                            "value": "0,0,-10"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Size",
+                                            "value": "81,80"
+                                          }
+                                        ],
+                                        "sorted": false
+                                      },
+                                      "sort_meta": [
+                                        12,
+                                        0
+                                      ]
+                                    },
+                                    {
+                                      "kind": "block",
+                                      "name": "Image",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Active",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Image",
+                                            "value": "GI,Bm.FHD_Trade.MarkerSell"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "MouseBlocking",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "MouseBlockingTest",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Name",
+                                            "value": "MGFSellMark5"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Pos",
+                                            "value": "0,0,-10"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Size",
+                                            "value": "80,81"
+                                          }
+                                        ],
+                                        "sorted": false
+                                      },
+                                      "sort_meta": [
+                                        13,
+                                        0
+                                      ]
+                                    },
+                                    {
+                                      "kind": "block",
+                                      "name": "Image",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Active",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Image",
+                                            "value": "GI,Bm.FHD_Trade.MarkerBuy"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "MouseBlocking",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "MouseBlockingTest",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Name",
+                                            "value": "MGFBuyMark6"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Pos",
+                                            "value": "0,0,-10"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Size",
+                                            "value": "81,80"
+                                          }
+                                        ],
+                                        "sorted": false
+                                      },
+                                      "sort_meta": [
+                                        14,
+                                        0
+                                      ]
+                                    },
+                                    {
+                                      "kind": "block",
+                                      "name": "Image",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Active",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Image",
+                                            "value": "GI,Bm.FHD_Trade.MarkerSell"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "MouseBlocking",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "MouseBlockingTest",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Name",
+                                            "value": "MGFSellMark6"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Pos",
+                                            "value": "0,0,-10"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Size",
+                                            "value": "80,81"
+                                          }
+                                        ],
+                                        "sorted": false
+                                      },
+                                      "sort_meta": [
+                                        15,
+                                        0
+                                      ]
+                                    },
+                                    {
+                                      "kind": "block",
+                                      "name": "Image",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Active",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Image",
+                                            "value": "GI,Bm.FHD_Trade.MarkerBuy"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "MouseBlocking",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "MouseBlockingTest",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Name",
+                                            "value": "MGFBuyMark7"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Pos",
+                                            "value": "0,0,-10"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Size",
+                                            "value": "81,80"
+                                          }
+                                        ],
+                                        "sorted": false
+                                      },
+                                      "sort_meta": [
+                                        16,
+                                        0
+                                      ]
+                                    },
+                                    {
+                                      "kind": "block",
+                                      "name": "Image",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Active",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Image",
+                                            "value": "GI,Bm.FHD_Trade.MarkerSell"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "MouseBlocking",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "MouseBlockingTest",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Name",
+                                            "value": "MGFSellMark7"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Pos",
+                                            "value": "0,0,-10"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Size",
+                                            "value": "80,81"
+                                          }
+                                        ],
+                                        "sorted": false
+                                      },
+                                      "sort_meta": [
+                                        17,
+                                        0
+                                      ]
+                                    },
+                                    {
+                                      "kind": "block",
+                                      "name": "Image",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Active",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Image",
+                                            "value": "GI,Bm.FHD_Trade.MarkerBuy"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "MouseBlocking",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "MouseBlockingTest",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Name",
+                                            "value": "MGFBuyMark8"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Pos",
+                                            "value": "0,0,-10"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Size",
+                                            "value": "81,80"
+                                          }
+                                        ],
+                                        "sorted": false
+                                      },
+                                      "sort_meta": [
+                                        18,
+                                        0
+                                      ]
+                                    },
+                                    {
+                                      "kind": "block",
+                                      "name": "Image",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Active",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Image",
+                                            "value": "GI,Bm.FHD_Trade.MarkerSell"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "MouseBlocking",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "MouseBlockingTest",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Name",
+                                            "value": "MGFSellMark8"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Pos",
+                                            "value": "0,0,-10"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Size",
+                                            "value": "80,81"
+                                          }
+                                        ],
+                                        "sorted": false
+                                      },
+                                      "sort_meta": [
+                                        19,
+                                        0
+                                      ]
+                                    },
+                                    {
+                                      "kind": "block",
+                                      "name": "Image",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Active",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Image",
+                                            "value": "GI,Bm.FHD_Trade.MarkerBuy"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "MouseBlocking",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "MouseBlockingTest",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Name",
+                                            "value": "MGFBuyMark9"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Pos",
+                                            "value": "0,0,-10"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Size",
+                                            "value": "81,80"
+                                          }
+                                        ],
+                                        "sorted": false
+                                      },
+                                      "sort_meta": [
+                                        20,
+                                        0
+                                      ]
+                                    },
+                                    {
+                                      "kind": "block",
+                                      "name": "Image",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Active",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Image",
+                                            "value": "GI,Bm.FHD_Trade.MarkerSell"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "MouseBlocking",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "MouseBlockingTest",
+                                            "value": "False"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Name",
+                                            "value": "MGFSellMark9"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Pos",
+                                            "value": "0,0,-10"
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Size",
+                                            "value": "80,81"
+                                          }
+                                        ],
+                                        "sorted": false
+                                      },
+                                      "sort_meta": [
+                                        21,
+                                        0
+                                      ]
+                                    }
+                                  ],
+                                  "sorted": true
+                                },
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              }
+                            ],
+                            "sorted": true
+                          },
+                          "sort_meta": [
+                            1,
+                            0
+                          ]
+                        }
+                      ],
+                      "sorted": true
+                    },
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  }
+                ],
+                "sorted": true
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

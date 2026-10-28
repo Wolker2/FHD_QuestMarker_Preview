@@ -1,0 +1,1923 @@
+{
+  "format": "blockpar",
+  "seed": 1369621460,
+  "root": {
+    "entries": [
+      {
+        "kind": "block",
+        "name": "BV",
+        "value": {
+          "entries": [
+            {
+              "kind": "block",
+              "name": "OnLoad",
+              "value": {
+                "entries": [
+                  {
+                    "kind": "block",
+                    "name": "FHDQuestMarkerInit",
+                    "value": {
+                      "entries": [
+                        {
+                          "kind": "parameter",
+                          "name": "00",
+                          "value": "unknown init=ImportedFunction('FHDQuestNative','FHDQuest_Init');",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "01",
+                          "value": "init();",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        }
+                      ],
+                      "sorted": true
+                    }
+                  }
+                ],
+                "sorted": false
+              },
+              "sort_meta": [
+                0,
+                1
+              ]
+            },
+            {
+              "kind": "block",
+              "name": "OnStart",
+              "value": {
+                "entries": [
+                  {
+                    "kind": "block",
+                    "name": "FHDQuestMarkerInit",
+                    "value": {
+                      "entries": [
+                        {
+                          "kind": "parameter",
+                          "name": "00",
+                          "value": "unknown init=ImportedFunction('FHDQuestNative','FHDQuest_Init');",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "01",
+                          "value": "init();",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        }
+                      ],
+                      "sorted": true
+                    }
+                  }
+                ],
+                "sorted": false
+              },
+              "sort_meta": [
+                0,
+                1
+              ]
+            }
+          ],
+          "sorted": true
+        },
+        "sort_meta": [
+          0,
+          1
+        ]
+      },
+      {
+        "kind": "block",
+        "name": "Data",
+        "value": {
+          "entries": [
+            {
+              "kind": "block",
+              "name": "ScriptLibs",
+              "value": {
+                "entries": [
+                  {
+                    "kind": "block",
+                    "name": "FHDQuestNative",
+                    "value": {
+                      "entries": [
+                        {
+                          "kind": "parameter",
+                          "name": "FHDQuest_Init",
+                          "value": "int,FHDQuest_Init",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "FHD_GetKind",
+                          "value": "int,FHD_GetKind",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "FHD_GetTarget",
+                          "value": "int,FHD_GetTarget",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "FHD_OfferKind",
+                          "value": "int,FHD_OfferKind",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "FHD_OfferTarget",
+                          "value": "int,FHD_OfferTarget",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "FHD_Reset",
+                          "value": "int,FHD_Reset",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "FHD_RouteCancel",
+                          "value": "int,FHD_RouteCancel",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "FHD_RouteClear",
+                          "value": "int,FHD_RouteClear",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "FHD_RouteDays",
+                          "value": "int,FHD_RouteDays",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "FHD_RouteDeadlineText",
+                          "value": "str,FHD_RouteDeadlineText",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "FHD_RouteDetails",
+                          "value": "str,FHD_RouteDetails",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "FHD_RouteJumps",
+                          "value": "int,FHD_RouteJumps",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "FHD_RoutePrepare",
+                          "value": "int,FHD_RoutePrepare",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "FHD_RouteRefuels",
+                          "value": "int,FHD_RouteRefuels",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "FHD_RouteTarget",
+                          "value": "int,FHD_RouteTarget",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "FHD_RouteText",
+                          "value": "str,FHD_RouteText",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "Path",
+                          "value": "Mods\\FHD_MODS\\FHD_QuestMarker_Preview\\Native\\FHDQuestMarker.dll",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        }
+                      ],
+                      "sorted": true
+                    }
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "QuestMarker",
+                    "value": "FHDQuestNative"
+                  }
+                ],
+                "sorted": false
+              },
+              "sort_meta": [
+                0,
+                1
+              ]
+            }
+          ],
+          "sorted": true
+        },
+        "sort_meta": [
+          0,
+          1
+        ]
+      },
+      {
+        "kind": "block",
+        "name": "ML",
+        "value": {
+          "entries": [
+            {
+              "kind": "block",
+              "name": "EquipmentShop",
+              "value": {
+                "entries": [
+                  {
+                    "kind": "block",
+                    "name": "Panel",
+                    "value": {
+                      "entries": [
+                        {
+                          "kind": "block",
+                          "name": "Panel",
+                          "value": {
+                            "entries": [
+                              {
+                                "kind": "block",
+                                "name": "Panel",
+                                "value": {
+                                  "entries": [
+                                    {
+                                      "kind": "block",
+                                      "name": "OnMouseRightClick",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "00",
+                                            "value": "ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Show'));",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ],
+                                        "sorted": true
+                                      }
+                                    }
+                                  ],
+                                  "sorted": false
+                                },
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              }
+                            ],
+                            "sorted": true
+                          },
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        }
+                      ],
+                      "sorted": true
+                    },
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  }
+                ],
+                "sorted": true
+              },
+              "sort_meta": [
+                0,
+                1
+              ]
+            },
+            {
+              "kind": "block",
+              "name": "Galaxy",
+              "value": {
+                "entries": [
+                  {
+                    "kind": "block",
+                    "name": "Panel",
+                    "value": {
+                      "entries": [
+                        {
+                          "kind": "block",
+                          "name": "Panel",
+                          "value": {
+                            "entries": [
+                              {
+                                "kind": "block",
+                                "name": "Panel",
+                                "value": {
+                                  "entries": [
+                                    {
+                                      "kind": "block",
+                                      "name": "OnMouseRightClick",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "00",
+                                            "value": "ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Show'));",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ],
+                                        "sorted": true
+                                      }
+                                    }
+                                  ],
+                                  "sorted": false
+                                },
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              }
+                            ],
+                            "sorted": true
+                          },
+                          "sort_meta": [
+                            0,
+                            2
+                          ]
+                        },
+                        {
+                          "kind": "block",
+                          "name": "Panel",
+                          "value": {
+                            "entries": [
+                              {
+                                "kind": "block",
+                                "name": "FHDQuestRouteOverlay",
+                                "value": {
+                                  "entries": [
+                                    {
+                                      "kind": "block",
+                                      "name": "Image",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Active",
+                                            "value": "True",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Image",
+                                            "value": "GI,Bm.FHDQuestMarker.RouteFrame",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "MouseBlocking",
+                                            "value": "False",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "MouseBlockingTest",
+                                            "value": "False",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Name",
+                                            "value": "FHDQuestRouteFrame",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Pos",
+                                            "value": "31,636,0",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Size",
+                                            "value": "758,47",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ],
+                                        "sorted": true
+                                      },
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "block",
+                                      "name": "Label",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Active",
+                                            "value": "False",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "AlignX",
+                                            "value": "Center",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "AlignY",
+                                            "value": "CenterEx",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Font",
+                                            "value": "Font.2SmallBold",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Help",
+                                            "value": "Help.FHDQuestRoute",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "MouseBlocking",
+                                            "value": "False",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "MouseBlockingTest",
+                                            "value": "False",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Name",
+                                            "value": "FHDQuestRouteInfo",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Pos",
+                                            "value": "120,652,-3",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Size",
+                                            "value": "450,24",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "TextColor",
+                                            "value": "0,255,0",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "WordWrap",
+                                            "value": "True",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ],
+                                        "sorted": true
+                                      },
+                                      "sort_meta": [
+                                        0,
+                                        2
+                                      ]
+                                    },
+                                    {
+                                      "kind": "block",
+                                      "name": "Label",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Active",
+                                            "value": "False",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "AlignX",
+                                            "value": "Center",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "AlignY",
+                                            "value": "CenterEx",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Font",
+                                            "value": "Font.2SmallBold",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Help",
+                                            "value": "Help.FHDQuestDeadline",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "MouseBlocking",
+                                            "value": "False",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "MouseBlockingTest",
+                                            "value": "False",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Name",
+                                            "value": "FHDQuestRouteDeadline",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Pos",
+                                            "value": "580,652,-3",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Size",
+                                            "value": "123,24",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "TextColor",
+                                            "value": "0,255,0",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "WordWrap",
+                                            "value": "False",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ],
+                                        "sorted": true
+                                      },
+                                      "sort_meta": [
+                                        1,
+                                        0
+                                      ]
+                                    }
+                                  ],
+                                  "sorted": true
+                                },
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              },
+                              {
+                                "kind": "block",
+                                "name": "GraphButton",
+                                "value": {
+                                  "entries": [],
+                                  "sorted": true
+                                },
+                                "sort_meta": [
+                                  0,
+                                  4
+                                ]
+                              },
+                              {
+                                "kind": "block",
+                                "name": "GraphButton",
+                                "value": {
+                                  "entries": [],
+                                  "sorted": true
+                                },
+                                "sort_meta": [
+                                  1,
+                                  0
+                                ]
+                              },
+                              {
+                                "kind": "block",
+                                "name": "GraphButton",
+                                "value": {
+                                  "entries": [],
+                                  "sorted": true
+                                },
+                                "sort_meta": [
+                                  2,
+                                  0
+                                ]
+                              },
+                              {
+                                "kind": "block",
+                                "name": "GraphButton",
+                                "value": {
+                                  "entries": [
+                                    {
+                                      "kind": "parameter",
+                                      "name": "Help",
+                                      "value": "Help.FHDQuestClear"
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "ImageDown",
+                                      "value": "GI,Bm.FHDQuestMarker.ClearD"
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "ImageNormal",
+                                      "value": "GI,Bm.FHDQuestMarker.ClearN"
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "ImageNormalA",
+                                      "value": "GI,Bm.FHDQuestMarker.ClearA"
+                                    },
+                                    {
+                                      "kind": "block",
+                                      "name": "OnPressCode",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "00",
+                                            "value": "InterfaceState('Galaxy','FHDQuestMarkV035',-1);InterfacePos('Galaxy','FHDQuestMarkV035',0,0,0);",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "01",
+                                            "value": "unknown clearRoute=ImportedFunction('FHDQuestNative','FHD_RouteClear');clearRoute();",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "02",
+                                            "value": "InterfaceState('Galaxy','FHDQuestRouteInfo',-1);InterfaceState('Galaxy','FHDQuestRouteDeadline',-1);",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ],
+                                        "sorted": true
+                                      }
+                                    }
+                                  ],
+                                  "sorted": false
+                                },
+                                "sort_meta": [
+                                  3,
+                                  0
+                                ]
+                              },
+                              {
+                                "kind": "block",
+                                "name": "Panel",
+                                "value": {
+                                  "entries": [
+                                    {
+                                      "kind": "block",
+                                      "name": "FHDQuestMarkerOverlay",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "block",
+                                            "name": "Image",
+                                            "value": {
+                                              "entries": [
+                                                {
+                                                  "kind": "parameter",
+                                                  "name": "Active",
+                                                  "value": "False",
+                                                  "sort_meta": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "parameter",
+                                                  "name": "Image",
+                                                  "value": "GAI,Bm.FHDQuestMarker.GNPoQ",
+                                                  "sort_meta": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "parameter",
+                                                  "name": "MouseBlocking",
+                                                  "value": "False",
+                                                  "sort_meta": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "parameter",
+                                                  "name": "MouseBlockingTest",
+                                                  "value": "False",
+                                                  "sort_meta": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "parameter",
+                                                  "name": "Name",
+                                                  "value": "FHDQuestMarkV035",
+                                                  "sort_meta": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "parameter",
+                                                  "name": "Pos",
+                                                  "value": "0,0,-10",
+                                                  "sort_meta": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "parameter",
+                                                  "name": "Size",
+                                                  "value": "50,50",
+                                                  "sort_meta": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                }
+                                              ],
+                                              "sorted": true
+                                            },
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ],
+                                        "sorted": true
+                                      },
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    }
+                                  ],
+                                  "sorted": true
+                                },
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              },
+                              {
+                                "kind": "parameter",
+                                "name": "Size",
+                                "value": "810,704",
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              }
+                            ],
+                            "sorted": true
+                          },
+                          "sort_meta": [
+                            1,
+                            0
+                          ]
+                        }
+                      ],
+                      "sorted": true
+                    },
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  }
+                ],
+                "sorted": true
+              },
+              "sort_meta": [
+                0,
+                1
+              ]
+            },
+            {
+              "kind": "block",
+              "name": "GoodsShop",
+              "value": {
+                "entries": [
+                  {
+                    "kind": "block",
+                    "name": "Panel",
+                    "value": {
+                      "entries": [
+                        {
+                          "kind": "block",
+                          "name": "Panel",
+                          "value": {
+                            "entries": [
+                              {
+                                "kind": "block",
+                                "name": "Panel",
+                                "value": {
+                                  "entries": [
+                                    {
+                                      "kind": "block",
+                                      "name": "OnMouseRightClick",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "00",
+                                            "value": "ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Show'));",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ],
+                                        "sorted": true
+                                      }
+                                    }
+                                  ],
+                                  "sorted": false
+                                },
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              }
+                            ],
+                            "sorted": true
+                          },
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        }
+                      ],
+                      "sorted": true
+                    },
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  }
+                ],
+                "sorted": true
+              },
+              "sort_meta": [
+                0,
+                1
+              ]
+            },
+            {
+              "kind": "block",
+              "name": "Gov",
+              "value": {
+                "entries": [
+                  {
+                    "kind": "block",
+                    "name": "Panel",
+                    "value": {
+                      "entries": [
+                        {
+                          "kind": "block",
+                          "name": "Panel",
+                          "value": {
+                            "entries": [
+                              {
+                                "kind": "block",
+                                "name": "Panel",
+                                "value": {
+                                  "entries": [
+                                    {
+                                      "kind": "block",
+                                      "name": "OnMouseRightClick",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "00",
+                                            "value": "ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Show'));",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ],
+                                        "sorted": true
+                                      }
+                                    }
+                                  ],
+                                  "sorted": false
+                                },
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              }
+                            ],
+                            "sorted": true
+                          },
+                          "sort_meta": [
+                            0,
+                            2
+                          ]
+                        },
+                        {
+                          "kind": "block",
+                          "name": "Panel",
+                          "value": {
+                            "entries": [
+                              {
+                                "kind": "block",
+                                "name": "QuestReturnControl",
+                                "value": {
+                                  "entries": [
+                                    {
+                                      "kind": "block",
+                                      "name": "Panel",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "block",
+                                            "name": "GraphButton",
+                                            "value": {
+                                              "entries": [
+                                                {
+                                                  "kind": "parameter",
+                                                  "name": "Active",
+                                                  "value": "False"
+                                                },
+                                                {
+                                                  "kind": "parameter",
+                                                  "name": "Kind",
+                                                  "value": "Normal"
+                                                },
+                                                {
+                                                  "kind": "parameter",
+                                                  "name": "KindHit",
+                                                  "value": "Rect"
+                                                },
+                                                {
+                                                  "kind": "parameter",
+                                                  "name": "MouseBlocking",
+                                                  "value": "False"
+                                                },
+                                                {
+                                                  "kind": "parameter",
+                                                  "name": "Name",
+                                                  "value": "FHDQuestReturnButton"
+                                                },
+                                                {
+                                                  "kind": "block",
+                                                  "name": "OnPressCode",
+                                                  "value": {
+                                                    "entries": [
+                                                      {
+                                                        "kind": "parameter",
+                                                        "name": "00",
+                                                        "value": "ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Return'));",
+                                                        "sort_meta": [
+                                                          0,
+                                                          1
+                                                        ]
+                                                      }
+                                                    ],
+                                                    "sorted": true
+                                                  }
+                                                },
+                                                {
+                                                  "kind": "parameter",
+                                                  "name": "Pos",
+                                                  "value": "-1000,-1000,-9999"
+                                                },
+                                                {
+                                                  "kind": "parameter",
+                                                  "name": "Size",
+                                                  "value": "1,1"
+                                                }
+                                              ],
+                                              "sorted": false
+                                            },
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Name",
+                                            "value": "QuestReturnControl",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Pos",
+                                            "value": "-1000,-1000,-9999",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Size",
+                                            "value": "1,1",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ],
+                                        "sorted": true
+                                      },
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    }
+                                  ],
+                                  "sorted": true
+                                },
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              }
+                            ],
+                            "sorted": true
+                          },
+                          "sort_meta": [
+                            1,
+                            0
+                          ]
+                        }
+                      ],
+                      "sorted": true
+                    },
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  }
+                ],
+                "sorted": true
+              },
+              "sort_meta": [
+                0,
+                1
+              ]
+            },
+            {
+              "kind": "block",
+              "name": "Hangar",
+              "value": {
+                "entries": [
+                  {
+                    "kind": "block",
+                    "name": "Panel",
+                    "value": {
+                      "entries": [
+                        {
+                          "kind": "block",
+                          "name": "Panel",
+                          "value": {
+                            "entries": [
+                              {
+                                "kind": "block",
+                                "name": "Panel",
+                                "value": {
+                                  "entries": [
+                                    {
+                                      "kind": "block",
+                                      "name": "OnMouseRightClick",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "00",
+                                            "value": "ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Show'));",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ],
+                                        "sorted": true
+                                      }
+                                    }
+                                  ],
+                                  "sorted": false
+                                },
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              }
+                            ],
+                            "sorted": true
+                          },
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        }
+                      ],
+                      "sorted": true
+                    },
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  }
+                ],
+                "sorted": true
+              },
+              "sort_meta": [
+                0,
+                1
+              ]
+            },
+            {
+              "kind": "block",
+              "name": "Info",
+              "value": {
+                "entries": [
+                  {
+                    "kind": "block",
+                    "name": "Panel",
+                    "value": {
+                      "entries": [
+                        {
+                          "kind": "block",
+                          "name": "Panel",
+                          "value": {
+                            "entries": [
+                              {
+                                "kind": "block",
+                                "name": "Panel",
+                                "value": {
+                                  "entries": [
+                                    {
+                                      "kind": "block",
+                                      "name": "OnMouseRightClick",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "00",
+                                            "value": "ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Show'));",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ],
+                                        "sorted": true
+                                      }
+                                    }
+                                  ],
+                                  "sorted": false
+                                },
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              }
+                            ],
+                            "sorted": true
+                          },
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        }
+                      ],
+                      "sorted": true
+                    },
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  }
+                ],
+                "sorted": true
+              },
+              "sort_meta": [
+                0,
+                1
+              ]
+            },
+            {
+              "kind": "block",
+              "name": "Journal",
+              "value": {
+                "entries": [
+                  {
+                    "kind": "block",
+                    "name": "Panel",
+                    "value": {
+                      "entries": [
+                        {
+                          "kind": "block",
+                          "name": "Panel",
+                          "value": {
+                            "entries": [
+                              {
+                                "kind": "block",
+                                "name": "Panel",
+                                "value": {
+                                  "entries": [
+                                    {
+                                      "kind": "block",
+                                      "name": "OnMouseRightClick",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "00",
+                                            "value": "ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Show'));",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ],
+                                        "sorted": true
+                                      }
+                                    }
+                                  ],
+                                  "sorted": false
+                                },
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              }
+                            ],
+                            "sorted": true
+                          },
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        }
+                      ],
+                      "sorted": true
+                    },
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  }
+                ],
+                "sorted": true
+              },
+              "sort_meta": [
+                0,
+                1
+              ]
+            },
+            {
+              "kind": "block",
+              "name": "Planet",
+              "value": {
+                "entries": [
+                  {
+                    "kind": "block",
+                    "name": "Panel",
+                    "value": {
+                      "entries": [
+                        {
+                          "kind": "block",
+                          "name": "Panel",
+                          "value": {
+                            "entries": [
+                              {
+                                "kind": "block",
+                                "name": "Panel",
+                                "value": {
+                                  "entries": [
+                                    {
+                                      "kind": "block",
+                                      "name": "OnMouseRightClick",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "00",
+                                            "value": "ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Show'));",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ],
+                                        "sorted": true
+                                      }
+                                    }
+                                  ],
+                                  "sorted": false
+                                },
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              }
+                            ],
+                            "sorted": true
+                          },
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        }
+                      ],
+                      "sorted": true
+                    },
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  }
+                ],
+                "sorted": true
+              },
+              "sort_meta": [
+                0,
+                1
+              ]
+            },
+            {
+              "kind": "block",
+              "name": "PlanetNO",
+              "value": {
+                "entries": [
+                  {
+                    "kind": "block",
+                    "name": "Panel",
+                    "value": {
+                      "entries": [
+                        {
+                          "kind": "block",
+                          "name": "Panel",
+                          "value": {
+                            "entries": [
+                              {
+                                "kind": "block",
+                                "name": "Panel",
+                                "value": {
+                                  "entries": [
+                                    {
+                                      "kind": "block",
+                                      "name": "OnMouseRightClick",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "00",
+                                            "value": "ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Show'));",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ],
+                                        "sorted": true
+                                      }
+                                    }
+                                  ],
+                                  "sorted": false
+                                },
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              }
+                            ],
+                            "sorted": true
+                          },
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        }
+                      ],
+                      "sorted": true
+                    },
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  }
+                ],
+                "sorted": true
+              },
+              "sort_meta": [
+                0,
+                1
+              ]
+            },
+            {
+              "kind": "block",
+              "name": "Rating",
+              "value": {
+                "entries": [
+                  {
+                    "kind": "block",
+                    "name": "Panel",
+                    "value": {
+                      "entries": [
+                        {
+                          "kind": "block",
+                          "name": "Panel",
+                          "value": {
+                            "entries": [
+                              {
+                                "kind": "block",
+                                "name": "Panel",
+                                "value": {
+                                  "entries": [
+                                    {
+                                      "kind": "block",
+                                      "name": "OnMouseRightClick",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "00",
+                                            "value": "ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Show'));",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ],
+                                        "sorted": true
+                                      }
+                                    }
+                                  ],
+                                  "sorted": false
+                                },
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              }
+                            ],
+                            "sorted": true
+                          },
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        }
+                      ],
+                      "sorted": true
+                    },
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  }
+                ],
+                "sorted": true
+              },
+              "sort_meta": [
+                0,
+                1
+              ]
+            },
+            {
+              "kind": "block",
+              "name": "RuinsTalk",
+              "value": {
+                "entries": [
+                  {
+                    "kind": "block",
+                    "name": "Panel",
+                    "value": {
+                      "entries": [
+                        {
+                          "kind": "block",
+                          "name": "Panel",
+                          "value": {
+                            "entries": [
+                              {
+                                "kind": "block",
+                                "name": "Panel",
+                                "value": {
+                                  "entries": [
+                                    {
+                                      "kind": "block",
+                                      "name": "OnMouseRightClick",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "00",
+                                            "value": "ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Show'));",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ],
+                                        "sorted": true
+                                      }
+                                    }
+                                  ],
+                                  "sorted": false
+                                },
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              }
+                            ],
+                            "sorted": true
+                          },
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        }
+                      ],
+                      "sorted": true
+                    },
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  }
+                ],
+                "sorted": true
+              },
+              "sort_meta": [
+                0,
+                1
+              ]
+            },
+            {
+              "kind": "block",
+              "name": "Ship",
+              "value": {
+                "entries": [
+                  {
+                    "kind": "block",
+                    "name": "Panel",
+                    "value": {
+                      "entries": [
+                        {
+                          "kind": "block",
+                          "name": "Panel",
+                          "value": {
+                            "entries": [
+                              {
+                                "kind": "block",
+                                "name": "Panel",
+                                "value": {
+                                  "entries": [
+                                    {
+                                      "kind": "block",
+                                      "name": "OnMouseRightClick",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "00",
+                                            "value": "ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Show'));",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ],
+                                        "sorted": true
+                                      }
+                                    }
+                                  ],
+                                  "sorted": false
+                                },
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              }
+                            ],
+                            "sorted": true
+                          },
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        }
+                      ],
+                      "sorted": true
+                    },
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  }
+                ],
+                "sorted": true
+              },
+              "sort_meta": [
+                0,
+                1
+              ]
+            },
+            {
+              "kind": "block",
+              "name": "StarMap",
+              "value": {
+                "entries": [
+                  {
+                    "kind": "block",
+                    "name": "Panel",
+                    "value": {
+                      "entries": [
+                        {
+                          "kind": "block",
+                          "name": "Panel",
+                          "value": {
+                            "entries": [
+                              {
+                                "kind": "block",
+                                "name": "Panel",
+                                "value": {
+                                  "entries": [
+                                    {
+                                      "kind": "block",
+                                      "name": "Panel",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "block",
+                                            "name": "OnMouseRightClick",
+                                            "value": {
+                                              "entries": [
+                                                {
+                                                  "kind": "parameter",
+                                                  "name": "00",
+                                                  "value": "ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Show'));",
+                                                  "sort_meta": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                }
+                                              ],
+                                              "sorted": true
+                                            }
+                                          }
+                                        ],
+                                        "sorted": false
+                                      },
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    }
+                                  ],
+                                  "sorted": true
+                                },
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              }
+                            ],
+                            "sorted": true
+                          },
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        }
+                      ],
+                      "sorted": true
+                    },
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  }
+                ],
+                "sorted": true
+              },
+              "sort_meta": [
+                0,
+                1
+              ]
+            }
+          ],
+          "sorted": true
+        },
+        "sort_meta": [
+          0,
+          1
+        ]
+      }
+    ],
+    "sorted": true
+  }
+}

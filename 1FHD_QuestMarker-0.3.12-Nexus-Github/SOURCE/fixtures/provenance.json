@@ -1,0 +1,12 @@
+{
+  "vanilla_galaxy": {
+    "source": "SRHD_Modding/01_Game_Snapshot_Mixed/CFG_DATA_Extracted/CFG/Main.dat",
+    "source_sha256": "7153347c2eea03e59383e049d80f3322560409a7c3add02e8e3404be211c9cf3",
+    "selection": "ML.Galaxy only"
+  },
+  "trade_overlay": {
+    "source": "Previously supplied FHD_Trade-v2.0/CFG/Main.dat",
+    "source_sha256": "fcc400ebd614c18574d784e51fb10e277e12c560d391ff7a2c33b44b53657bd9",
+    "selection": "ML.Galaxy only"
+  }
+}

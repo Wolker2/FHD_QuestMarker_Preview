@@ -1,0 +1,34 @@
+{
+  "version": "0.3.11",
+  "variant": 1,
+  "reference_resolution": [
+    1920,
+    1080
+  ],
+  "reference_frame_origin": [
+    555,
+    178
+  ],
+  "frame_bounds": [
+    586,
+    814,
+    758,
+    47
+  ],
+  "label_bounds": [
+    675,
+    830,
+    450,
+    24
+  ],
+  "frame_parent_size": [
+    810,
+    704
+  ],
+  "deadline_bounds": [
+    1135,
+    830,
+    123,
+    24
+  ]
+}

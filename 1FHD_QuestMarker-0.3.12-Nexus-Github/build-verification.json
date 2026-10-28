@@ -1,0 +1,99 @@
+{
+  "status": "passed",
+  "checks_passed": 29,
+  "checks": [
+    "Source-only inputs contain no compiled configs, images, DLL or game EXE",
+    "All fourteen rebuilt runtime SHA-256 hashes equal original upload",
+    "Exactly fourteen runtime files",
+    "DAT roundtrip: CFG/Main.dat",
+    "DAT roundtrip: CFG/Rus/Lang.dat",
+    "DAT roundtrip: CFG/CacheData.dat",
+    "Typed GI roundtrip: Data/Image/2TipsA.gi",
+    "Typed GI roundtrip: Data/Image/2TipsD.gi",
+    "Typed GI roundtrip: Data/Image/2TipsN.gi",
+    "Typed GI roundtrip: Data/Image/DelA.gi",
+    "Typed GI roundtrip: Data/Image/DelD.gi",
+    "Typed GI roundtrip: Data/Image/DelN.gi",
+    "Typed GI roundtrip: Data/Image/GNPo.gi",
+    "Typed GAI roundtrip, including sequence table",
+    "Twenty GI animation frames and one sequence retained",
+    "Typed GI roundtrip: Data/Image/RouteFrame.gi",
+    "Local runtime path resolves: Native/FHDQuestMarker.dll",
+    "Local runtime path resolves: Data/Image/DelA.gi",
+    "Local runtime path resolves: Data/Image/DelD.gi",
+    "Local runtime path resolves: Data/Image/DelN.gi",
+    "Local runtime path resolves: Data/Image/GNPoQ.gai",
+    "Local runtime path resolves: Data/Image/2TipsA.gi",
+    "Local runtime path resolves: Data/Image/2TipsD.gi",
+    "Local runtime path resolves: Data/Image/2TipsN.gi",
+    "Local runtime path resolves: Data/Image/RouteFrame.gi",
+    "Configured native export bindings exist in DLL definition",
+    "CP1251 metadata and exact original line endings retained",
+    "Attached target EXE has exact documented SHA-256",
+    "Source package stays within 100-file limit"
+  ],
+  "test_runs": [
+    {
+      "test": "Overlay merge with vanilla Galaxy fixture and both FHD_Trade load orders",
+      "status": "passed",
+      "stdout": "PASS: measured frame bounds, green text, native frame in front, anchors at four resolutions\nPASS: vanilla\nPASS: measured frame bounds, green text, native frame in front, anchors at four resolutions\nPASS: quest + trade\nPASS: measured frame bounds, green text, native frame in front, anchors at four resolutions\nPASS: trade + quest\nPASS: animated endpoint and deadline scripts compiled; reset and close clean the endpoint"
+    },
+    {
+      "test": "Compile route planner fixture",
+      "status": "passed",
+      "stdout": ""
+    },
+    {
+      "test": "Route planning oracle: 5000 cases, geometry and fuel models",
+      "status": "passed",
+      "stdout": "PASS: reachability, longest viable hops, fuel/refuelling, 5000 state-space oracle cases, stellar detours and hyperspace artefact time"
+    },
+    {
+      "test": "Freestanding i386 Delphi ABI and synthetic native route/UI fixture",
+      "status": "passed",
+      "stdout": "PASS: i386 Delphi ABI, native route preparation/application/reset, ETA ledger, same-system goal, moving planet, ship objective, offer deadlines, animated endpoint cleanup and extended-panel click ABI"
+    },
+    {
+      "test": "PE exports, relocations and target EXE function guards",
+      "status": "passed",
+      "stdout": "PASS: i386 PE, entry, relocations, 16 exports, no static imports\nPASS: exact EXE SHA-256, 21 function guards and three map UI hooks"
+    },
+    {
+      "test": "Actual EXE/DLL bytes with synthetic Windows APIs: callbacks, seven hooks and rejection guards",
+      "status": "passed",
+      "stdout": "PASS: real target PE + packaged DLL initialization, repeated init, callback, seven hooks,\n      accepted-quest capture/fallback, trampoline effects, unsupported/damaged EXE rejection without writes"
+    }
+  ],
+  "runtime_sha256": {
+    "CFG/CacheData.dat": "232fa64ae2c117268da4cfde92136f4825a5c82b549b803af5dbc41c936aca90",
+    "CFG/Main.dat": "30ead42cd6d51166b04a86ee786249ebb0562ef636244a50138c4aacf292ce64",
+    "CFG/Rus/Lang.dat": "e9f874bed9457bd70b894dd6f487c5282121ee9a9e8a4ef94ac759e27e3e3f06",
+    "Data/Image/2TipsA.gi": "db573d038442e87fc0778b5115da9c8cc84b9d74ca96b7f2a35d28f59e17e615",
+    "Data/Image/2TipsD.gi": "8b3d87e273c05d99c11dff3cf6697737b6db2308d9b637a7d1850bdce65fd61b",
+    "Data/Image/2TipsN.gi": "9f4d20eaceb4d689c2874a9e50eed8d63996250d9cb4d946d620c01c7f8dd061",
+    "Data/Image/DelA.gi": "e33a17ded1ce518694b9a5b908990ab09c917e0d977696b05a8b888c54267c53",
+    "Data/Image/DelD.gi": "602141dc3cc55329473c8827731003630ccdc9d49ad1d4fdbc80968ae786dc35",
+    "Data/Image/DelN.gi": "0bb484d430eca51458413900efbae2cd94a80ef3b75cd39a6fc35964e16c1cd4",
+    "Data/Image/GNPo.gi": "f49c26c8b8298f1b87ca54c56c1051336032424904805a1b0c5c1663493f7e14",
+    "Data/Image/GNPoQ.gai": "8b2f007775ddf400145b6c5d4527accef1fd0561f130791e653b107f24bef9a9",
+    "Data/Image/RouteFrame.gi": "73c3017a0cbb67668e37c8b698d59e8275719f87e913731e843f69b828b34bc2",
+    "ModuleInfo.txt": "dda376168d28e9c1961a1aa61d9ad261cc8b4425a8633d6f634aafbbed9154c6",
+    "Native/FHDQuestMarker.dll": "67ebd81cfda56f95ff6672f4f4abc043045af5cd8682bb0faaaf9eab64cb9aa6"
+  },
+  "local_paths_checked": 9,
+  "native_export_bindings_checked": 16,
+  "actual_target_exe_bytes_tested": true,
+  "target_exe_sha256": "e43a4b15503c705eebe2d8ce5778c2a2fb090db515a3fd86d319e5c5aa692ebf",
+  "target_exe_in_source_or_install_archive": false,
+  "live_windows_game_executed": false,
+  "environment": {
+    "python": "3.12.14",
+    "zlib": "1.3.2",
+    "gcc": "gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0",
+    "ld": "GNU ld (GNU Binutils for Ubuntu) 2.42"
+  },
+  "limits": [
+    "Windows APIs and game objects are emulation fixtures; no interactive game session was run.",
+    "Travel-time accuracy, live UI behavior and saves still require in-game verification."
+  ]
+}
