@@ -1,0 +1,59 @@
+{
+  "version": "0.3.13-GalaxyLite",
+  "variant": 1,
+  "reference_resolution": [
+    1920,
+    1080
+  ],
+  "reference_frame_origin": [
+    360,
+    69
+  ],
+  "frame_bounds": [
+    581,
+    976,
+    758,
+    47
+  ],
+  "label_bounds": [
+    670,
+    992,
+    450,
+    24
+  ],
+  "frame_parent_size": [
+    1200,
+    966
+  ],
+  "deadline_bounds": [
+    1130,
+    992,
+    123,
+    24
+  ],
+  "target_mod": "AModGalaxyLite",
+  "galaxy_size": [
+    280,
+    200
+  ],
+  "map_coordinate_size": [
+    1152,
+    790
+  ],
+  "map_panel_bounds": [
+    24,
+    30,
+    1150,
+    786
+  ],
+  "frame_z": -2,
+  "label_z": -3,
+  "native_panel_z": -1,
+  "layout_source": "FHD_QuestMarker_Preview.rar (UI-only)",
+  "marker_layer": "FHDQuestMarkerLayer",
+  "marker_layer_size": [
+    1150,
+    786
+  ],
+  "scaling": "inherited from GalaxyLite galaxy frame; engine centers frame based on viewport"
+}

@@ -1,0 +1,69 @@
+Help ~{
+    FHDQuestReturn=Проложить маршрут к цели предложенного задания и оценить время пути
+    FHDQuestRoute=Оценка по текущему оборудованию до посадки. Для дозаправок нужны деньги. Бои и ожидания не учтены.
+    FHDQuestDeadline=Количество дней на выполнение текущего предложения задания, с учётом выбранных условий
+    FHDQuestClear=Сбросить маршрут и метку задания с галактической карты
+}
+Script ^{
+    QuestMarker ^{
+        Mark ^{
+            00=if(!star)exit;
+            01=float formSizeX=1152;
+            02=float formSizeY=790;
+            03=float galaxySizeX=CT('Constellations.GalaxySizeX');
+            04=float galaxySizeY=CT('Constellations.GalaxySizeY');
+            05=if(galaxySizeX<=0 || galaxySizeY<=0)exit;
+            06=float x=(formSizeX/galaxySizeX)*CoordX(star);
+            07=float y=(formSizeY/galaxySizeY)*CoordY(star);InterfacePos('Galaxy','FHDQuestMarkV035',x-25,y-25,0);
+            08=InterfaceState('Galaxy','FHDQuestMarkV035',1);
+        }
+        Place ^{
+            00=if(!star)exit;unknown clearRoute=ImportedFunction('FHDQuestNative','FHD_RouteClear');clearRoute();
+            01=ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Mark'),'star',star);
+            02=if(CurrentForm()!='Galaxy')RunChildForm('Galaxy',2);
+        }
+        Error ^{
+            00=str problem='Не удалось построить маршрут.';
+            01=if(status==-1)problem='Версия Rangers.exe не поддерживается или обработчик карты уже изменён другим модом.';
+            02=if(status==-2)problem='Нет подходящего двигателя, бака или скорости для перелёта.';
+            03=if(status==-3)problem='До цели нет маршрута с текущим оборудованием и доступными дозаправками.';
+            04=if(status==-4)problem='Цель задания сейчас недоступна. Запросите задание снова.';
+            05=if(status==-5)problem='Система цели ещё не открыта на галакарте.';
+            06=if(status==-6)problem='Маршрут превышает предел расчёта (4096 систем, 128 прыжков) или слишком сложен.';
+            07=if(status==-7)problem='Посадка на целевую планету запрещена.';
+            08=MessageBox(problem);
+        }
+        Return ^{
+            00=unknown prepare=ImportedFunction('FHDQuestNative','FHD_RoutePrepare');
+            01=unknown summary=ImportedFunction('FHDQuestNative','FHD_RouteText');
+            02=unknown cancel=ImportedFunction('FHDQuestNative','FHD_RouteCancel');
+            03=int status=prepare();
+            04=if(status)ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Error'),'status',status);
+            05=if(status)exit;
+            06=unknown routeTarget=ImportedFunction('FHDQuestNative','FHD_RouteTarget');dword star=routeTarget();ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Mark'),'star',star);
+            07=InterfaceText('Galaxy','FHDQuestRouteInfo',summary());
+            08=InterfaceState('Galaxy','FHDQuestRouteInfo',1);
+            09=unknown deadline=ImportedFunction('FHDQuestNative','FHD_RouteDeadlineText');InterfaceText('Galaxy','FHDQuestRouteDeadline',deadline());InterfaceState('Galaxy','FHDQuestRouteDeadline',1);
+            10=RunChildForm('Galaxy',2);
+            11=cancel();
+            12=InterfaceState('Galaxy','FHDQuestRouteInfo',-1);
+            13=InterfaceState('Galaxy','FHDQuestRouteDeadline',-1);InterfaceText('Galaxy','FHDQuestRouteDeadline','');InterfaceState('Galaxy','FHDQuestMarkV035',-1);
+            14=InterfaceText('Galaxy','FHDQuestRouteInfo','');
+        }
+        Show ^{
+            00=unknown getKind=ImportedFunction('FHDQuestNative','FHD_GetKind');
+            01=unknown getTarget=ImportedFunction('FHDQuestNative','FHD_GetTarget');
+            02=unknown reset=ImportedFunction('FHDQuestNative','FHD_Reset');
+            03=int kind=getKind();
+            04=if(kind<0)exit;
+            05=dword target=getTarget();
+            06=reset();
+            07=if(!target)exit;
+            08=dword star=0;
+            09=if(kind==0 || kind==2)star=PlanetToStar(target);
+            10=if(kind==1 || kind==4)star=ShipStar(target);
+            11=if(kind==3)star=target;
+            12=ExecuteCodeFromString(GenerateCodeStringFromBlock('Script.QuestMarker.Place'),'star',star);
+        }
+    }
+}
