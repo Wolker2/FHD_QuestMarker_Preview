@@ -1,0 +1,32 @@
+name: Recover FHD_QuestMarker_Preview 0.3.15 original sources
+on:
+  push:
+    paths:
+      - '.github/workflows/publish-fhd-questmarker-preview-0315.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: git clone --depth=1 https://github.com/Xenomorphchyma/SRHD-XenoModKit.git /tmp/SRHD-XenoModKit
+      - name: Verify ZIP and export original source
+        env:
+          PYTHONPATH: /tmp/SRHD-XenoModKit:1FHD_QuestMarker_Preview_0.3.15_Nexus-GitHub/tools
+        run: |
+          python '1FHD_QuestMarker_Preview_0.3.15_Nexus-GitHub/tools/nexus_source_export.py' --archive '1FHD_QuestMarker_Preview_0.3.15_Nexus-GitHub/install/FHD_QuestMarker_Preview_0.3.15.rar' --target '1FHD_QuestMarker_Preview_0.3.15_Nexus-GitHub' --sha256 6383b7fac24bd8485b64c527b46e5238eecfb3fda24d6bf77031f9f704748a55 --mod 'FHD_QuestMarker_Preview'
+      - name: Commit verified source
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- '1FHD_QuestMarker_Preview_0.3.15_Nexus-GitHub/SOURCE' '1FHD_QuestMarker_Preview_0.3.15_Nexus-GitHub/VALIDATION_REPORT.json'
+          if ! git diff --cached --quiet; then
+            git commit -m 'Extract FHD_QuestMarker_Preview 0.3.15 original source'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
