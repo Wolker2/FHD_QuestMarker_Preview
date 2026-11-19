@@ -1,0 +1,72 @@
+{
+  "mod": "FHD_QuestMarker_Preview",
+  "source_archive": "FHD_QuestMarker_Preview_0.3.15.rar",
+  "archive_sha256": "6383b7fac24bd8485b64c527b46e5238eecfb3fda24d6bf77031f9f704748a55",
+  "archive_file_count": 14,
+  "original_files_in_source": 13,
+  "text_or_code_files": 1,
+  "byte_exact_DAT_to_JSON": 3,
+  "png_files": 8,
+  "data_loss_in_original_archive": false,
+  "dll_source_recovered_from_compiled_binary": false,
+  "game_tested": false,
+  "warnings": [],
+  "files": {
+    "Mods/FHD_MODS/FHD_QuestMarker_Preview/CFG/CacheData.dat": {
+      "size": 208,
+      "sha256": "232fa64ae2c117268da4cfde92136f4825a5c82b549b803af5dbc41c936aca90"
+    },
+    "Mods/FHD_MODS/FHD_QuestMarker_Preview/CFG/Main.dat": {
+      "size": 1329,
+      "sha256": "f4675ffde5cea6c0a5ffec062e157acaf68f5701f5a954d92c5d9311e0fcfc4c"
+    },
+    "Mods/FHD_MODS/FHD_QuestMarker_Preview/CFG/Rus/Lang.dat": {
+      "size": 1918,
+      "sha256": "32c83a8eab6f8b219f9c3ed201892f0a9c63f75b540e84a50b8cc1c53478fb34"
+    },
+    "Mods/FHD_MODS/FHD_QuestMarker_Preview/Data/Image/2TipsA.gi": {
+      "size": 1192,
+      "sha256": "db573d038442e87fc0778b5115da9c8cc84b9d74ca96b7f2a35d28f59e17e615"
+    },
+    "Mods/FHD_MODS/FHD_QuestMarker_Preview/Data/Image/2TipsD.gi": {
+      "size": 1192,
+      "sha256": "8b3d87e273c05d99c11dff3cf6697737b6db2308d9b637a7d1850bdce65fd61b"
+    },
+    "Mods/FHD_MODS/FHD_QuestMarker_Preview/Data/Image/2TipsN.gi": {
+      "size": 1192,
+      "sha256": "9f4d20eaceb4d689c2874a9e50eed8d63996250d9cb4d946d620c01c7f8dd061"
+    },
+    "Mods/FHD_MODS/FHD_QuestMarker_Preview/Data/Image/DelA.gi": {
+      "size": 3727,
+      "sha256": "e33a17ded1ce518694b9a5b908990ab09c917e0d977696b05a8b888c54267c53"
+    },
+    "Mods/FHD_MODS/FHD_QuestMarker_Preview/Data/Image/DelD.gi": {
+      "size": 3755,
+      "sha256": "602141dc3cc55329473c8827731003630ccdc9d49ad1d4fdbc80968ae786dc35"
+    },
+    "Mods/FHD_MODS/FHD_QuestMarker_Preview/Data/Image/DelN.gi": {
+      "size": 3727,
+      "sha256": "0bb484d430eca51458413900efbae2cd94a80ef3b75cd39a6fc35964e16c1cd4"
+    },
+    "Mods/FHD_MODS/FHD_QuestMarker_Preview/Data/Image/GNPo.gi": {
+      "size": 562,
+      "sha256": "f49c26c8b8298f1b87ca54c56c1051336032424904805a1b0c5c1663493f7e14"
+    },
+    "Mods/FHD_MODS/FHD_QuestMarker_Preview/Data/Image/GNPoQ.gai": {
+      "size": 40867,
+      "sha256": "8b2f007775ddf400145b6c5d4527accef1fd0561f130791e653b107f24bef9a9"
+    },
+    "Mods/FHD_MODS/FHD_QuestMarker_Preview/Data/Image/RouteFrame.gi": {
+      "size": 94824,
+      "sha256": "73c3017a0cbb67668e37c8b698d59e8275719f87e913731e843f69b828b34bc2"
+    },
+    "Mods/FHD_MODS/FHD_QuestMarker_Preview/ModuleInfo.txt": {
+      "size": 1367,
+      "sha256": "5a30bc4a32140a1088f741fa7d626d2d199a9bbb72d5e28946aacbfa1b278209"
+    },
+    "Mods/FHD_MODS/FHD_QuestMarker_Preview/Native/FHDQuestMarker.dll": {
+      "size": 32337,
+      "sha256": "28543cf8540f88e41cbef3d99d7db5528f0bf1394d60473306c01160a14ff237"
+    }
+  }
+}

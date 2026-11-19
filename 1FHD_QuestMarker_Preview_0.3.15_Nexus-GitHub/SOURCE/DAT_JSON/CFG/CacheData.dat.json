@@ -1,0 +1,64 @@
+{
+  "format": "cachedata",
+  "seed": 1369621460,
+  "root": {
+    "entries": [
+      {
+        "kind": "block",
+        "name": "Bm",
+        "value": {
+          "entries": [
+            {
+              "kind": "block",
+              "name": "FHDQuestMarker",
+              "value": {
+                "entries": [
+                  {
+                    "kind": "parameter",
+                    "name": "ClearA",
+                    "value": "Mods\\FHD_MODS\\FHD_QuestMarker_Preview\\Data\\Image\\DelA.gi"
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "ClearD",
+                    "value": "Mods\\FHD_MODS\\FHD_QuestMarker_Preview\\Data\\Image\\DelD.gi"
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "ClearN",
+                    "value": "Mods\\FHD_MODS\\FHD_QuestMarker_Preview\\Data\\Image\\DelN.gi"
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "GNPoQ",
+                    "value": "Mods\\FHD_MODS\\FHD_QuestMarker_Preview\\Data\\Image\\GNPoQ.gai"
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "GovA",
+                    "value": "Mods\\FHD_MODS\\FHD_QuestMarker_Preview\\Data\\Image\\2TipsA.gi"
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "GovD",
+                    "value": "Mods\\FHD_MODS\\FHD_QuestMarker_Preview\\Data\\Image\\2TipsD.gi"
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "GovN",
+                    "value": "Mods\\FHD_MODS\\FHD_QuestMarker_Preview\\Data\\Image\\2TipsN.gi"
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "RouteFrame",
+                    "value": "Mods\\FHD_MODS\\FHD_QuestMarker_Preview\\Data\\Image\\RouteFrame.gi"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
